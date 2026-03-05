@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  outline: none;
+}
+
+:root {
+  --fundo: #985532;
+  --cabeca: #154dff;
+  --pe: #44dd44;
+}
+html {
+    font-family: "monospace";
+}
+header {
+    background-color: var(--cabeca);
+    border-bottom: 3px solid var(--pe);
+    color: #fff;
+}
+#tituloPagina {
+    padding: 15px;
+}
+main {
+    background-color: var(--fundo);
+    color: #fff;
+}
+#campoBusca {
+    text-align: center;
+    
+
+}
+#busca {
+    height: 20px;
+    padding: 15px;
+    margin: 5px;
+}
+#seletor {
+    height: 30px;
+    width: 220px;
+    padding: 5px;
+    margin: 5px;
+}
+#botaoBusca {
+    margin: 10px;
+    padding: 10px;
+    
+}
+.campoLivro {
+    margin: 0px 20%;
+    margin-bottom: 10px;
+    padding: 20px 10px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+img {
+    width: 150px;
+}
+#paginas, ul{
+    display: flex;
+    padding: 10px 0;
+    align-items: center;
+    margin-left: 14%;
+}
+
+li {
+    border-right: 1px solid #fff;
+    padding: 10px;
+}
+#bProximo {
+    padding: 5px;
+    margin: 10px;
+}
+footer {
+    background-color: var(--pe);
+    border-top: 3px solid var(--cabeca);
+}
+#tituloRodape, .cat {
+    padding: 8px;
+}
+#copy {
+    padding: 10px 0;
+    text-align: center;
+}

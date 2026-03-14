@@ -3,6 +3,10 @@ function exibirBooks(books) {
   caixaConteudo.innerHTML = "";
 
   books.forEach((book) => {
+  
+      const tituloPagina = document.querySelector('.tituloWeb');
+      tituloPagina.innerHTML = " Página Principal | Biblioteca Rokusan";
+  
     const meuDiv = document.createElement('div');
     meuDiv.classList.add('book');
     meuDiv.id = book.titulo.replace(/ /g, '_');
@@ -104,6 +108,20 @@ function exibirDetalhesbook(book) {
   meuB6.textContent = book.sinopse;
   meuP6.appendChild(meuB6);
   
+  const meuP7 = document.createElement('p');
+  meuP7.classList.add('infobook');
+  meuP7.textContent = "Ano : ";
+  const meuB7 = document.createElement('b');
+  meuB7.textContent = book.ano;
+  meuP7.appendChild(meuB7);
+  
+  const meuP8 = document.createElement('p');
+  meuP8.classList.add('infobook');
+  meuP8.textContent = "Idioma : ";
+  const meuB8 = document.createElement('b');
+  meuB8.textContent = book.idioma;
+  meuP8.appendChild(meuB8);
+  
   
   caixaConteudo.appendChild(meuDiv1);
   meuDiv1.appendChild(meuDiv2);
@@ -113,10 +131,26 @@ function exibirDetalhesbook(book) {
   meuDiv1.appendChild(meuP3);
   meuDiv1.appendChild(meuP4);
   meuDiv1.appendChild(meuP5);
+  meuDiv1.appendChild(meuP8)
+  meuDiv1.appendChild(meuP7);
   meuDiv1.appendChild(meuP6);
 }
+
+const inputBusca = document.getElementById('busca');
+const botaoBuscar = document.getElementById('botaoBusca');
+
+botaoBuscar.addEventListener('click', () => {
+  const termoBusca = inputBusca.value.toLowerCase();
+  const livrosFiltrados = json['livros'].filter(book => 
+    book.autor.toLowerCase().includes(termoBusca) || 
+    book.titulo.toLowerCase().includes(termoBusca)
+  );
+  exibirBooks(livrosFiltrados);
+});
 
 window.onload = () => {
   const books = json['livros'];
   exibirBooks(books);
 };
+
+

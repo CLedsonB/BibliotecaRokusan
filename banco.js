@@ -79,7 +79,7 @@ var json = {
 "estado" : "perfeito",
 "disponibilidade" : "Sim",
 "capa" : "img/mulher-morte.webp",
-"sinopse" : "Na Europa medieval, a médica italiana Adélia é enviada à Inglaterra para cumprir uma missão secreta: investigar o violento assassinato de crianças e descobrir a identidade do criminoso, dissecando os corpos das vítimas. À medida que tenta solucionar o caso, essa mulher se vê envolvida numa avalanche de morte e sangue que só ela será capaz de interromper"
+"sinopse" : "Na Europa medieval, a médica italiana Adélia é enviada à Inglaterra para cumprir uma missão secreta: investigar o violento assassinato de crianças e descobrir a identidade do criminoso, dissecando os corpos das vítimas. À medida que tenta solucionar o caso, essa mulher se vê envolvida numa avalanche de morte e sangue que só ela será capaz de interromper."
    },{
 "titulo" : "Desafios e enigmas dos Tronos",
 "autor" : "Tim Dedopulos",
@@ -119,7 +119,7 @@ var json = {
 "estado" : "perfeito",
 "disponibilidade" : "Sim",
 "capa" : "img/herois-gerais.webp",
-"sinopse" : "João, Tião e Chiquinho são jovens como você. Têm sonhos como todo adolescente. Desejam ser pessoas livres e felizes. Tião tenta de todas as formas convencer o pai a abandonar a escravidão do trabalho naquela fazenda. Sem sucesso, ele foge com seus dois irmãos, atravessam os Gerais e encontram a avó, que denuncia a fazenda ao Sindicato dos Trabalhadores Rurais. Aí, os pais de Tião resolvem ir ao encontro dos filhos "
+"sinopse" : "João, Tião e Chiquinho são jovens como você. Têm sonhos como todo adolescente. Desejam ser pessoas livres e felizes. Tião tenta de todas as formas convencer o pai a abandonar a escravidão do trabalho naquela fazenda. Sem sucesso, ele foge com seus dois irmãos, atravessam os Gerais e encontram a avó, que denuncia a fazenda ao Sindicato dos Trabalhadores Rurais. Aí, os pais de Tião resolvem ir ao encontro dos filhos."
    },{
 "titulo" : "Sherlock Holmes - O roubo da coroa de Berilos e outras aventuras",
 "autor" : "Arthur Conan Doyle",
@@ -151,15 +151,15 @@ var json = {
 "capa" : "img/muro-berlim.webp",
 "sinopse" : ""
    },{
-"titulo" : "",
-"autor" : "",
-"ano" : 0,
-"paginas" : 0,
+"titulo" : "A Grande Cozinha - Sorvetes e Sorbets",
+"autor" : "Revista Cláudia",
+"ano" : 2007,
+"paginas" : 176,
 "idioma" : "pt-br",
 "estado" : "perfeito",
 "disponibilidade" : "Sim",
-"capa" : "img/.webp",
-"sinopse" : ""
+"capa" : "img/sorvete.webp",
+"sinopse" : "Todo o rigor da tradição culinária italiana, uma das mais apreciadas do mundo em primorosa coleção adaptada por CLÁUDIA, a revista que mais entende de cozinha no Brasil. Receitas fáceis, outras sofisticadas, sugestões de tipos de vinho que melhor se harmonizam com cada criação, curiosidades e informações históricas sobre a origem de alguns pratos ingredientes e um capítulo fundamental em cada livro: a Escola de cozinha, com todos os segredos e as técnicas consagradas para você encantar a família e os amigos. Bom apetite."
    }
   ]
 };

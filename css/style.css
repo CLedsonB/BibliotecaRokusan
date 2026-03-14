@@ -23,6 +23,7 @@ header {
 }
 #tituloPagina {
     padding: 15px;
+    text-align: center;
 }
 main {
     background-color: var(--fundo);

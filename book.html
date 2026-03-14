@@ -6,49 +6,21 @@
     <meta name="keywords" content="Empréstimo de livros, Livros físico, Doação de livros">
     <meta name="author" content="CLedson Borges">
     <meta name="description" content="Descubra o nosso acervo, faça empréstimo e doação de livros">
-{% load static %}
-<link rel="stylesheet" type="text/css" href="{% static 'css/index.css' %}">
-<script src="{% static 'js/script.js' %}"></script>
-
+    
+    <link rel="stylesheet" href="css/style.css">
             
-    <title>Página Principal | Biblioteca Rokusan</title>
+    <title> Título | Biblioteca Rokusan</title>
 </head>
 <body>
   <header>
+      <a href="index.html"> <-- </a>
       <h2 id="tituloPagina">Biblioteca Rokusan</h2>
-      <div id="campoBusca">
-          <h3>Pesquise</h3>
-          <input id="busca" type="text" placeholder="Escreva aqui...">
-          
-          <h3>Ordenação</h3>
-          <select id="seletor">
-          <option>Ordem alfabética</option>
-          <option>Mais Recentes</option>
-          <option>Mais antigos</option>
-          <option>Maiores</option>
-          <option>Menores</option>
-          </select>
-          <br>
-          <button id="botaoBusca">Buscar</button>
-      </div>
   </header>
   <main>
       <div id="principal">
           <div class="campoLivro">
-              <a href="book.html">
-<img src="{% static 'img/capa.jpg' %}" alt="Imagem da capa">
-              </a>
-              <h4>Título</h4>
-          </div>
-          <div class="campoLivro">
-              <a href="book.html">
-<img src="{% static 'img/capa.jpg' %}" alt="Imagem da capa">
-              </a>
-              <h4>Título</h4>
-          </div>
-          <div class="campoLivro">
-              <a href="book.html">
-<img src="{% static 'img/capa.jpg' %}" alt="Imagem da capa">
+              <a href="#">
+<img src="img/capa.jpg" alt="Imagem da capa">
               </a>
               <h4>Título</h4>
           </div>
@@ -74,9 +46,6 @@
           <br>
           <span class="cat"><b>CEP : </b></span>
           <span><a href="#">41515-140</a></span>
-          <br>
-          <span class="cat"><b>Celular : </b></span>
-          <span><a href="#">(71) 98215 - 7687</a></span>
           <br>
       </div>
       <div id="icons">

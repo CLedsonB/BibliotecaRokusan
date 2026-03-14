@@ -46,8 +46,11 @@ main {
 }
 #botaoBusca {
     margin: 10px;
-    padding: 10px;
-    
+    padding: 10px;  
+}
+.book {
+    padding: 20px;
+    text-align: center;
 }
 .campoLivro {
     margin: 0px 20%;
@@ -58,6 +61,9 @@ main {
 }
 img {
     width: 150px;
+}
+.titulo {
+    color: #ffffffda;
 }
 #paginas, ul{
     display: flex;
@@ -84,4 +90,14 @@ footer {
 #copy {
     padding: 10px 0;
     text-align: center;
+}
+
+/* ------------- */
+.seta-voltar {
+    font-size: 40px;
+    margin: 10px;
+}
+.conterImagem, .infobook {
+    text-align: center;
+    margin: 10px 20px;
 }

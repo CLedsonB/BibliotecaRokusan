@@ -10,8 +10,8 @@
 
 :root {
   --fundo: #985532;
-  --cabeca: #154dff;
-  --pe: #44dd44;
+  --cabeca: #113cc7;
+  --pe: #5f9c41;
 }
 html {
     font-family: "monospace";
@@ -77,9 +77,9 @@ li {
     border-right: 1px solid #fff;
     padding: 10px;
 }
-#bProximo {
+.botaoPagina {
     padding: 5px;
-    margin: 10px;
+    
 }
 footer {
     background-color: var(--pe);

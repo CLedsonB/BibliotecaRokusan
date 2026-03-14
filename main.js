@@ -1,8 +1,23 @@
-function exibirBooks(books) {
+const livrosPorPagina = 10;
+let paginaAtual = 1;
+let intervaloAtual = 1;
+const botoesPorIntervalo = 5;
+
+
+window.onload = () => {
+  const books = json['livros'];
+  exibirBooks(books, paginaAtual);
+};
+
+function exibirBooks(books, pagina) {
   const caixaConteudo = document.querySelector('#principal');
   caixaConteudo.innerHTML = "";
-
-  books.forEach((book) => {
+  
+  const inicio = (pagina - 1) * livrosPorPagina;
+  const fim = inicio + livrosPorPagina;
+  const livrosPagina = books.slice(inicio, fim);
+  
+  livrosPagina.forEach((book) => {
   
       const tituloPagina = document.querySelector('.tituloWeb');
       tituloPagina.innerHTML = " Página Principal | Biblioteca Rokusan";
@@ -34,6 +49,63 @@ function exibirBooks(books) {
     meuDiv.appendChild(meuA2);
     meuA2.appendChild(meuH3);
   });
+  atualizarBotoesPaginação(books, pagina);
+}
+
+function atualizarBotoesPaginação(books, pagina) {
+  const totalPaginas = Math.ceil(books.length / livrosPorPagina);
+  const botoesPaginação = document.querySelector('#paginas');
+  botoesPaginação.innerHTML = "";
+  
+  const inicioIntervalo = (intervaloAtual - 1) * botoesPorIntervalo + 1;
+  const fimIntervalo = Math.min(intervaloAtual * botoesPorIntervalo, totalPaginas);
+  
+  const lista = document.createElement('ul');
+  
+  if (intervaloAtual > 1) {
+    const elemento = document.createElement('li');
+    const botaoAnterior = document.createElement('button');
+    botaoAnterior.textContent = '<';
+    botaoAnterior.classList.add('botaoPagina');
+    botaoAnterior.addEventListener('click', () => {
+      intervaloAtual--;
+      atualizarBotoesPaginação(books, pagina);
+    });
+    botoesPaginação.appendChild(lista);
+    lista.appendChild(elemento);
+    elemento.appendChild(botaoAnterior);
+  }
+  
+  for (let i = inicioIntervalo; i <= fimIntervalo; i++) {
+    const elemento = document.createElement('li');
+    const botao = document.createElement('button');
+    botao.textContent = i;
+    botao.classList.add('botaoPagina');
+    botao.addEventListener('click', () => {
+      paginaAtual = i;
+      exibirBooks(books, i);
+    });
+    if (i === pagina) {
+      botao.disabled = true;
+    }
+    lista.appendChild(elemento);
+    elemento.appendChild(botao);
+  }
+  
+  if (fimIntervalo < totalPaginas) {
+    const elemento = document.createElement('li');
+    const botaoProximo = document.createElement('button');
+    botaoProximo.textContent = '>';
+    botaoProximo.classList.add('botaoPagina');
+    botaoProximo.addEventListener('click', () => {
+      intervaloAtual++;
+      atualizarBotoesPaginação(books, pagina);
+    });
+    lista.appendChild(elemento);
+    elemento.appendChild(botaoProximo);
+  }
+  
+  botoesPaginação.appendChild(lista);
 }
 
 // Função para exibir os detalhes do book
@@ -47,7 +119,7 @@ function exibirDetalhesbook(book) {
   meuLink.textContent = '<-';
   meuLink.addEventListener('click', () => {
     const books = json['livros'];
-    exibirBooks(books);
+    exibirBooks(books, paginaAtual);
   });
   
   const tituloPagina = document.querySelector('.tituloWeb');
@@ -138,19 +210,11 @@ function exibirDetalhesbook(book) {
 
 const inputBusca = document.getElementById('busca');
 const botaoBuscar = document.getElementById('botaoBusca');
-
 botaoBuscar.addEventListener('click', () => {
   const termoBusca = inputBusca.value.toLowerCase();
-  const livrosFiltrados = json['livros'].filter(book => 
-    book.autor.toLowerCase().includes(termoBusca) || 
-    book.titulo.toLowerCase().includes(termoBusca)
-  );
-  exibirBooks(livrosFiltrados);
+  livros = json['livros'].filter(book => book.autor.toLowerCase().includes(termoBusca) || book.titulo.toLowerCase().includes(termoBusca) );
+  paginaAtual = 1;
+  intervaloAtual = 1;
+  exibirBooks(livros, paginaAtual);
 });
-
-window.onload = () => {
-  const books = json['livros'];
-  exibirBooks(books);
-};
-
 

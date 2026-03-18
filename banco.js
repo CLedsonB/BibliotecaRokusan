@@ -9,7 +9,397 @@ var json = {
 "estado" : "perfeito",
 "disponibilidade" : "Sim",
 "capa" : "img/kingsman.webp",
-"sinopse" : "Inglaterra, últimas décadas do século XV. Num ama-nhecer de inverno de 1460, uma jovem freira e um mon-ge enfrentam inimigos ardilosos e são expulsos de suas ordens religiosas. Obrigados a fugir através de uma terra devastada por um sangrento conflito, são envolvi-dos na disputa fratricida que sacode as casas nobres de Lancaster e York. Atravessando o turbilhão das batalhas de Northampton e Mortimer's Cross, até o grande massacre de Towton, aqui está a guerra vivida não apenas por nobres e aris-tocratas, mas, por homens e mulheres comuns fazendo o possível para sobreviver. A Guerra das Rosas é ima-ginada por Toby Clements com energia e brutalidade arrebatadoras."
+"sinopse" : "Inglaterra, últimas décadas do século XV. Num amanhecer de inverno de 1460, uma jovem freira e um monge enfrentam inimigos ardilosos e são expulsos de suas ordens religiosas. Obrigados a fugir através de uma terra devastada por um sangrento conflito, são envolvidos na disputa fratricida que sacode as casas nobres de Lancaster e York. Atravessando o turbilhão das batalhas de Northampton e Mortimer's Cross, até o grande massacre de Towton, aqui está a guerra vivida não apenas por nobres e aris-tocratas, mas, por homens e mulheres comuns fazendo o possível para sobreviver. A Guerra das Rosas é imaginada por Toby Clements com energia e brutalidade arrebatadoras."
+   },{
+"titulo" : "O Mistério do Apartamento Sorriso",
+"autor" : "Pasqual Lourenço",
+"ano" : 0,
+"paginas" : 0,
+"idioma" : "pt-br",
+"estado" : "perfeito",
+"disponibilidade" : "Sim",
+"capa" : "img2/apartamento-sorriso.webp",
+"sinopse" : ""
+   },{
+"titulo" : "Aventuras na História Ed°6",
+"autor" : "Editora Abril",
+"ano" : 2004,
+"paginas" : 0,
+"idioma" : "pt-br",
+"estado" : "perfeito",
+"disponibilidade" : "Sim",
+"capa" : "img2/avent6.webp",
+"sinopse" : ""
+   },{
+"titulo" : "Grandes Líderes da História N° 10",
+"autor" : "Editora Arte Antiga",
+"ano" : 0,
+"paginas" : 0,
+"idioma" : "pt-br",
+"estado" : "perfeito",
+"disponibilidade" : "Sim",
+"capa" : "img2/avent10.webp",
+"sinopse" : ""
+   },{
+"titulo" : "Aventuras na História Ed°20",
+"autor" : "Editora Abril",
+"ano" : 2005,
+"paginas" : 0,
+"idioma" : "pt-br",
+"estado" : "perfeito",
+"disponibilidade" : "Sim",
+"capa" : "img2/avent20.webp",
+"sinopse" : ""
+   },{
+"titulo" : "Aventuras na História Ed°72",
+"autor" : "Editora Abril",
+"ano" : 2009,
+"paginas" : 0,
+"idioma" : "pt-br",
+"estado" : "perfeito",
+"disponibilidade" : "Sim",
+"capa" : "img2/avent72.webp",
+"sinopse" : ""
+   },{
+"titulo" : "Aventuras na História N°136",
+"autor" : "Editora Abril",
+"ano" : 2014,
+"paginas" : 0,
+"idioma" : "pt-br",
+"estado" : "perfeito",
+"disponibilidade" : "Sim",
+"capa" : "img2/avent136.webp",
+"sinopse" : ""
+   },{
+"titulo" : "Aventuras na História N°175",
+"autor" : "Editora Abril",
+"ano" : 2017,
+"paginas" : 0,
+"idioma" : "pt-br",
+"estado" : "perfeito",
+"disponibilidade" : "Sim",
+"capa" : "img2/avent175.webp",
+"sinopse" : ""
+   },{
+"titulo" : "Aventuras na História N°179",
+"autor" : "Editora Abril",
+"ano" : 2018,
+"paginas" : 0,
+"idioma" : "pt-br",
+"estado" : "perfeito",
+"disponibilidade" : "Sim",
+"capa" : "img2/avent179.webp",
+"sinopse" : ""
+   },{
+"titulo" : "Exame Info Dicas Ed°120",
+"autor" : "Editora Abril",
+"ano" : 2013,
+"paginas" : 0,
+"idioma" : "pt-br",
+"estado" : "perfeito",
+"disponibilidade" : "Sim",
+"capa" : "img2/infodicas.webp",
+"sinopse" : ""
+   },{
+"titulo" : "Isto É Ed°2399",
+"autor" : "Editora Três",
+"ano" : 2015,
+"paginas" : 0,
+"idioma" : "pt-br",
+"estado" : "perfeito",
+"disponibilidade" : "Sim",
+"capa" : "img2/istoe2399.webp",
+"sinopse" : ""
+   },{
+"titulo" : "Mundo Estranho Ed°206",
+"autor" : "Editora Abril",
+"ano" : 2018,
+"paginas" : 0,
+"idioma" : "pt-br",
+"estado" : "perfeito",
+"disponibilidade" : "Sim",
+"capa" : "img2/me-206.webp",
+"sinopse" : ""
+   },{
+"titulo" : "Mundo Estranho Ed°37",
+"autor" : "Editora Abril",
+"ano" : 2005,
+"paginas" : 0,
+"idioma" : "pt-br",
+"estado" : "perfeito",
+"disponibilidade" : "Sim",
+"capa" : "img2/me-2005.webp",
+"sinopse" : ""
+   },{
+"titulo" : "Coleção Mundo Estranho - Segredos do além vida após a morte",
+"autor" : "Editora Abril",
+"ano" : 0,
+"paginas" : 0,
+"idioma" : "pt-br",
+"estado" : "perfeito",
+"disponibilidade" : "Sim",
+"capa" : "img2/me-vida.webp",
+"sinopse" : ""
+   },{
+"titulo" : "Mundo Estranho Ed°128 ",
+"autor" : "Editora Abril",
+"ano" : 2012,
+"paginas" : 0,
+"idioma" : "pt-br",
+"estado" : "perfeito",
+"disponibilidade" : "Sim",
+"capa" : "img2/me.webp",
+"sinopse" : ""
+   },{
+"titulo" : "Mundo Estranho Ed°34",
+"autor" : "Editora Abril",
+"ano" : 2004,
+"paginas" : 0,
+"idioma" : "pt-br",
+"estado" : "perfeito",
+"disponibilidade" : "Sim",
+"capa" : "img2/me34.webp",
+"sinopse" : ""
+   },{
+"titulo" : "Mundo Estranho Ed°38",
+"autor" : "Editora Abril",
+"ano" : 2005,
+"paginas" : 0,
+"idioma" : "pt-br",
+"estado" : "perfeito",
+"disponibilidade" : "Sim",
+"capa" : "img2/me38.webp",
+"sinopse" : ""
+   },{
+"titulo" : "Mundo Estranho Ed°55",
+"autor" : "Editora Abril",
+"ano" : 2006,
+"paginas" : 0,
+"idioma" : "pt-br",
+"estado" : "perfeito",
+"disponibilidade" : "Sim",
+"capa" : "img2/me55.webp",
+"sinopse" : ""
+   },{
+"titulo" : "Mundo Estranho Ed°58",
+"autor" : "Editora Abril",
+"ano" : 2006,
+"paginas" : 0,
+"idioma" : "pt-br",
+"estado" : "perfeito",
+"disponibilidade" : "Sim",
+"capa" : "img2/me58.webp",
+"sinopse" : ""
+   },{
+"titulo" : "Mundo Estranho Ed°67",
+"autor" : "Editora Abril",
+"ano" : 2007,
+"paginas" : 0,
+"idioma" : "pt-br",
+"estado" : "perfeito",
+"disponibilidade" : "Sim",
+"capa" : "img2/me67.webp",
+"sinopse" : ""
+   },{
+"titulo" : "Mundo Estranho Ed°88",
+"autor" : "Editora Abril",
+"ano" : 2009,
+"paginas" : 0,
+"idioma" : "pt-br",
+"estado" : "perfeito",
+"disponibilidade" : "Sim",
+"capa" : "img2/me88.webp",
+"sinopse" : ""
+   },{
+"titulo" : "Mundo Estranho Ed°106",
+"autor" : "Editora Abril",
+"ano" : 2010,
+"paginas" : 0,
+"idioma" : "pt-br",
+"estado" : "perfeito",
+"disponibilidade" : "Sim",
+"capa" : "img2/me106.webp",
+"sinopse" : ""
+   },{
+"titulo" : "Mundo Estranho Ed°114",
+"autor" : "Editora Abril",
+"ano" : 2011,
+"paginas" : 0,
+"idioma" : "pt-br",
+"estado" : "perfeito",
+"disponibilidade" : "Sim",
+"capa" : "img2/me114.webp",
+"sinopse" : ""
+   },{
+"titulo" : "Mundo Estranho Ed°188",
+"autor" : "2016",
+"ano" : 0,
+"paginas" : 0,
+"idioma" : "pt-br",
+"estado" : "perfeito",
+"disponibilidade" : "Sim",
+"capa" : "img2/me118.webp",
+"sinopse" : ""
+   },{
+"titulo" : "Mundo Estranho Ed°157",
+"autor" : "Editora Abril",
+"ano" : 2014,
+"paginas" : 0,
+"idioma" : "pt-br",
+"estado" : "perfeito",
+"disponibilidade" : "Sim",
+"capa" : "img2/me157.webp",
+"sinopse" : ""
+   },{
+"titulo" : "Mundo Estranho Ed°168",
+"autor" : "Editora Abril",
+"ano" : 2015,
+"paginas" : 0,
+"idioma" : "pt-br",
+"estado" : "perfeito",
+"disponibilidade" : "Sim",
+"capa" : "img2/me168.webp",
+"sinopse" : ""
+   },{
+"titulo" : "Mundo Estranho Ed°169",
+"autor" : "Editora Abril",
+"ano" : 2015,
+"paginas" : 0,
+"idioma" : "pt-br",
+"estado" : "perfeito",
+"disponibilidade" : "Sim",
+"capa" : "img2/me159.webp",
+"sinopse" : ""
+   },{
+"titulo" : "Mundo Estranho Ed°173",
+"autor" : "Editora Abril",
+"ano" : 2015,
+"paginas" : 0,
+"idioma" : "pt-br",
+"estado" : "perfeito",
+"disponibilidade" : "Sim",
+"capa" : "img2/me173.webp",
+"sinopse" : ""
+   },{
+"titulo" : "Mundo Estranho Ed°184",
+"autor" : "Editora Abril",
+"ano" : 2016,
+"paginas" : 0,
+"idioma" : "pt-br",
+"estado" : "perfeito",
+"disponibilidade" : "Sim",
+"capa" : "img2/me184.webp",
+"sinopse" : ""
+   },{
+"titulo" : "Mundo Estranho Ed°192",
+"autor" : "Editora Abril",
+"ano" : 2017,
+"paginas" : 0,
+"idioma" : "pt-br",
+"estado" : "perfeito",
+"disponibilidade" : "Sim",
+"capa" : "img2/me192.webp",
+"sinopse" : ""
+   },{
+"titulo" : "Mundo Estranho Ed°193",
+"autor" : "Editora Abril",
+"ano" : 2017,
+"paginas" : 0,
+"idioma" : "pt-br",
+"estado" : "perfeito",
+"disponibilidade" : "Sim",
+"capa" : "img2/me193.webp",
+"sinopse" : ""
+   },{
+"titulo" : "Mundo Estranho Ed°195",
+"autor" : "Editora Abril",
+"ano" : 2017,
+"paginas" : 0,
+"idioma" : "pt-br",
+"estado" : "perfeito",
+"disponibilidade" : "Sim",
+"capa" : "img2/me2017.webp",
+"sinopse" : ""
+   },{
+"titulo" : "Mundo Estranho Ed°207",
+"autor" : "Editora Abril",
+"ano" : 2018,
+"paginas" : 0,
+"idioma" : "pt-br",
+"estado" : "perfeito",
+"disponibilidade" : "Sim",
+"capa" : "img2/me207.webp",
+"sinopse" : ""
+   },{
+"titulo" : "Revista das Religiões - Super interessante",
+"autor" : "Editora Abril",
+"ano" : 2004,
+"paginas" : 0,
+"idioma" : "pt-br",
+"estado" : "perfeito",
+"disponibilidade" : "Sim",
+"capa" : "img2/si-religiao.webp",
+"sinopse" : ""
+   },{
+"titulo" : "Super Interessante Ed°359",
+"autor" : "Editora Abril",
+"ano" : 2016,
+"paginas" : 0,
+"idioma" : "pt-br",
+"estado" : "perfeito",
+"disponibilidade" : "Sim",
+"capa" : "img2/si359.webp",
+"sinopse" : ""
+   },{
+"titulo" : "Super Interessante Ed°372",
+"autor" : "Editora Abril",
+"ano" : 2017,
+"paginas" : 0,
+"idioma" : "pt-br",
+"estado" : "perfeito",
+"disponibilidade" : "Sim",
+"capa" : "img2/si372.webp",
+"sinopse" : ""
+   },{
+"titulo" : "Super Interessante Ed°381",
+"autor" : "Editora Abril",
+"ano" : 2017,
+"paginas" : 0,
+"idioma" : "pt-br",
+"estado" : "perfeito",
+"disponibilidade" : "Sim",
+"capa" : "img2/si381.webp",
+"sinopse" : ""
+   },{
+"titulo" : "Nazismo - O lado oculto do Terceiro Reich",
+"autor" : "Editora Abril",
+"ano" : 0,
+"paginas" : 0,
+"idioma" : "pt-br",
+"estado" : "perfeito",
+"disponibilidade" : "Sim",
+"capa" : "img2/super-nazismo.webp",
+"sinopse" : ""
+   },{
+"titulo" : "Super Interessante Ed°338-A",
+"autor" : "Editora Abril",
+"ano" : 2014,
+"paginas" : 0,
+"idioma" : "pt-br",
+"estado" : "perfeito",
+"disponibilidade" : "Sim",
+"capa" : "img2/super338.webp",
+"sinopse" : ""
+   },{
+"titulo" : "Terror e Aventura - Tráfico de Africanos e cotidiano na Bahia",
+"autor" : "Goli Guerreiro, Elizabeth Rodrigues",
+"ano" : 0,
+"paginas" : 0,
+"idioma" : "pt-br",
+"estado" : "perfeito",
+"disponibilidade" : "Sim",
+"capa" : "img2/terror-aventura.webp",
+"sinopse" : ""
    },{
 "titulo" : "Um breve guia ilustrado para compreender o islã",
 "autor" : "I. A. Ibrahim",
@@ -708,7 +1098,7 @@ var json = {
 "idioma" : "pt-br",
 "estado" : "página 62 recortada",
 "disponibilidade" : "Sim",
-"capa" : "img/redacoes-perigosas-2.webp",
+"capa" : "img2/redacoes-perigosas-2.webp",
 "sinopse" : "O livro acompanha a professora Rosemeire em uma nova escola particular. Ao propor um concurso de redação sobre fome, ela descobre denúncias graves em textos de alunos, envolvendo corrupção federal e tráfico de influência, colocando-a em risco ao investigar o esquema criminoso. "
    },{
 "titulo" : "Romeu e Julieta",
@@ -718,7 +1108,7 @@ var json = {
 "idioma" : "pt-br",
 "estado" : "perfeito",
 "disponibilidade" : "Sim",
-"capa" : "img/romeu-julieta.webp",
+"capa" : "img2/romeu-julieta.webp",
 "sinopse" : "O livro narra a tragédia mais famosa da literatura mundial. Ambientada em Verona, na Itália, a obra narra o amor proibido entre dois jovens de famílias rivais, os Montecchio e os Capuleto. "
    },{
 "titulo" : "As aventuras de Xisto",
@@ -728,8 +1118,108 @@ var json = {
 "idioma" : "pt-br",
 "estado" : "perfeito",
 "disponibilidade" : "Sim",
-"capa" : "img/xisto.webp",
+"capa" : "img2/xisto.webp",
 "sinopse" : "A história começa quando o jovem Xisto encontra o 'Manual Secreto dos Bruxos'. Decidido a livrar o mundo das forças do mal, ele pede ao rei Magnoto que o nomeie cavaleiro andante. Acompanhado de seu fiel e medroso escudeiro Bruzo, ele parte em uma jornada para enfrentar bruxos e criaturas mágicas. Para derrotar seus inimigos, Xisto precisa decifrar charadas e enigmas presentes no manual, que revelam as fraquezas e localizações dos bruxos."
+   },{
+"titulo" : "Sukyo Mahikari N°246",
+"autor" : "Sukyo Mahikari",
+"ano" : 2017,
+"paginas" : 66,
+"idioma" : "pt-br",
+"estado" : "falta contra capa",
+"disponibilidade" : "Sim",
+"capa" : "img2/sm.webp",
+"sinopse" : "Revista períodica de uma organização espiritualista fundada no Japão em 1959 por Kotama Okada, com o objetivo de promover a paz, a harmonia e a espiritualidade através da 'Arte Mahikari' ou 'Okiyome'.O termo traduz-se como 'Luz da Verdade' e a instituição foca na imposição de mãos para transmitir energia divina que purifica os aspectos espiritual, mental e físico das pessoas. "
+   },{
+"titulo" : "Sukyo Mahikari N° 280",
+"autor" : "Sukyo Mahikari",
+"ano" : 2020,
+"paginas" : 64,
+"idioma" : "pt-br",
+"estado" : "perfeito",
+"disponibilidade" : "Sim",
+"capa" : "img2/sm2.webp",
+"sinopse" : "Revista períodica de uma organização espiritualista fundada no Japão em 1959 por Kotama Okada, com o objetivo de promover a paz, a harmonia e a espiritualidade através da 'Arte Mahikari' ou 'Okiyome'.O termo traduz-se como 'Luz da Verdade' e a instituição foca na imposição de mãos para transmitir energia divina que purifica os aspectos espiritual, mental e físico das pessoas."
+   },{
+"titulo" : "Tratamentos naturais - saúde através do naturalismo",
+"autor" : "Antônio Thomé",
+"ano" : 2005,
+"paginas" : 238,
+"idioma" : "pt-br",
+"estado" : "perfeito",
+"disponibilidade" : "Sim",
+"capa" : "img2/tratamento-natural.webp",
+"sinopse" : "Recupere a sua Saúde! Conheça os cinco agentes naturais que promovem a sua cura: 1-Trofoterapia: Tratamento através dos alimentos. 2-Hidroterapia: Tratamento através da água. 3-Geoterapia: Tratamento através do solo. 4-Fitoterapia: Tratamento através dos chás. 5-Hélioterapia: Tratamento através da luz solar. A utilidade desta obra se revela em diversas circunstâncias, especialmente no que diz respeito à prevenção de doenças por meio de um programa saudável de alimentação e vida"
+   },{
+"titulo" : "Homem-Aranha Aranhaverso",
+"autor" : "Marvel Comics",
+"ano" : 2016,
+"paginas" : 150,
+"idioma" : "pt-br",
+"estado" : "pequenos cortes",
+"disponibilidade" : "Não",
+"capa" : "img2/aranhaverso.webp",
+"sinopse" : "A saga reuniu dezenas de versões alternativas do Homem-Aranha, incluindo Miles Morales, para lutar contra a família Morlun. A história influenciou o filme animado de 2018 e focou no multiverso aracnídeo. O arco, embora focado no Peter Parker, inclui a participação de Miles Morales, sendo uma leitura fundamental para entender a dimensão do multiverso no universo Marvel."
+   },{
+"titulo" : "7 Orações que vão mudar a sua vida",
+"autor" : "Stormie Omartian",
+"ano" : 2007,
+"paginas" : 76,
+"idioma" : "pt-br",
+"estado" : "perfeito",
+"disponibilidade" : "Sim",
+"capa" : "img2/7-oracao.webp",
+"sinopse" : "Um dia, os discípulos de Jesus ficaram boquiabertos com a maneira como ele orava. Um deles ficou tão impressionado que desejou aprender a orar daquela forma. Ele queria orar de modo correto, porque sabia que assim teria uma oração vitoriosa, capaz de resolver questões insolúveis. Se assim como os discípulos, você quer aprender qual a melhor forma de orar e ser ouvido, este livro é perfeito para você. Aqui estão sete modelos bíblicos de oração que funcionam de verdade. Aprenda a orar com Stormie Omartian e descubra os beneficios de uma vida de oração!"
+   },{
+"titulo" : "Diário de um zumbi do Minecraft - Um desafio assustador",
+"autor" : "Herobrine Books",
+"ano" : 2015,
+"paginas" : 86,
+"idioma" : "pt-br",
+"estado" : "perfeito",
+"disponibilidade" : "Sim",
+"capa" : "img2/diario-zumbi.webp",
+"sinopse" : "Você acha que os zumbis são diferentes da gente? Então ficará surpreso com o que vai descobrir. Você tem nas mãos o diário de um zumbi de 12 anos. Nestas páginas, você terá a oportunidade de conhecer o dia a dia na Escola Monstro e vai se passa na cabeça de saber o que realmente so slimes, esqueletos, creepers, endermen e outros personagens do universo Minecraft. Entre um passeio para o Nether e um quase encontro com o Ender Dragon, o major desafio na vida de um jovem zumbi está em jogo: conquistar Sally Cadáver e derrotar Jeff, o major imbecil da escola. A vida (ou seria a morte?) de um zumbi não é nada fácil. NÃO PERCA TEMPO E MERGULHE NESTA AVENTURA!"
+   },{
+"titulo" : "Dicionário de espanhol",
+"autor" : "Editora Avenida",
+"ano" : 2002,
+"paginas" : 215,
+"idioma" : "pt-br",
+"estado" : "páginas amareladas",
+"disponibilidade" : "Sim",
+"capa" : "img2/dicio-espanhol.webp",
+"sinopse" : "Tradução de mais de 15 mil verbetes de espanhol para português e de português para espanhol"
+   },{
+"titulo" : "Os movimentos - pequena abordagem sobre mecânica",
+"autor" : "Nicolau Gilberto Ferraro",
+"ano" : 1997,
+"paginas" : 47,
+"idioma" : "pt-br",
+"estado" : "perfeito",
+"disponibilidade" : "Sim",
+"capa" : "img2/movimento.webp",
+"sinopse" : "O conhecimento histórico de como a ciência se desenvolveu torna mais fas-cinante o seu estudo. Neste livro, Nicolau Gilberto Ferraro, físico e autor de vários livros didáticos em sua área. apresenta uma introdução ao estudo do movimento dos corpos, isto é, a Mecânica. Descreve o empenho de pen-sadores e cientistas na formulação de teorias e leis que explicam os movimentos. Mostra como uma teoria é, por vezes, reformulada ou refutada, até que uma nova teoria seja proposta para substituí-la. A ciência, afinal, não é obra de uma só pessoa, mas resulta de um processo que se estende de geração a geração."
+   },{
+"titulo" : "Embasamento Arqueano-Proterozóico Inferior do Cráton do São Francisco, no Nordeste da Bahia",
+"autor" : "Superintendência de Geologia e Recursos Humanos - SGM",
+"ano" : 1998,
+"paginas" : 160,
+"idioma" : "pt-br",
+"estado" : "perfeito",
+"disponibilidade" : "Sim",
+"capa" : "img2/roteiro-geo.webp",
+"sinopse" : "Embasamento Arqueano-Proterozóico inferior da região Nordeste do Estado da Bahia e mineralizações associadas: roteiros geológicos a distritos mineiros. Salvador: Superintendencia de Geologia e Recursos Minerais"
+   },{
+"titulo" : "",
+"autor" : "",
+"ano" : 0,
+"paginas" : 0,
+"idioma" : "pt-br",
+"estado" : "perfeito",
+"disponibilidade" : "Sim",
+"capa" : "img2/.webp",
+"sinopse" : ""
    }
   ]
 };

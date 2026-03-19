@@ -45,6 +45,10 @@ main {
     padding: 5px;
     margin: 5px;
 }
+#btnAlternarDirecao {
+    padding: 5px;
+    font-size: 18px;
+}
 #botaoBusca {
     margin: 10px;
     padding: 10px;  

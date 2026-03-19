@@ -218,3 +218,156 @@ botaoBuscar.addEventListener('click', () => {
   exibirBooks(livros, paginaAtual);
 });
 
+// --- Início do código adicionado: seletor de ordenação integrado ---
+// Estado de ordenação
+let campoOrdenacao = 'titulo'; // 'titulo' | 'ano' | 'paginas'
+let direcaoOrdenacao = 'asc';  // 'asc' | 'desc'
+
+// Função utilitária: normaliza string (remove acentos e lower-case)
+function normalizarString(s) {
+  return (s || '').toString()
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .toLowerCase();
+}
+
+// Comparadores
+const comparadores = {
+  titulo: (a, b) => {
+    const ta = normalizarString(a.titulo);
+    const tb = normalizarString(b.titulo);
+    return ta < tb ? -1 : (ta > tb ? 1 : 0);
+  },
+  ano: (a, b) => {
+    const ay = Number.isFinite(+a.ano) ? +a.ano : -Infinity;
+    const by = Number.isFinite(+b.ano) ? +b.ano : -Infinity;
+    return ay - by;
+  },
+  paginas: (a, b) => {
+    const ap = Number.isFinite(+a.paginas) ? +a.paginas : -Infinity;
+    const bp = Number.isFinite(+b.paginas) ? +b.paginas : -Infinity;
+    return ap - bp;
+  }
+};
+
+// Função que aplica ordenação em um array (retorna cópia ordenada)
+function ordenarLivros(arr) {
+  if (!Array.isArray(arr)) return arr;
+  const cmp = comparadores[campoOrdenacao];
+  if (!cmp) return arr.slice();
+  const copia = arr.slice().sort(cmp);
+  if (direcaoOrdenacao === 'desc') copia.reverse();
+  return copia;
+}
+
+// Cria (ou reutiliza) controles de ordenação
+function garantirControlesOrdenacao() {
+  // container para controles (procura um elemento com id 'controles' ou cria um no topo do body)
+  let container = document.getElementById('controlesOrdenacao');
+  if (!container) {
+    container = document.createElement('div');
+    container.id = 'controlesOrdenacao';
+    container.style.display = 'flex';
+    container.style.gap = '8px';
+    container.style.alignItems = 'center';
+    // tenta inserir antes do #principal, se existir
+    const principal = document.getElementById('principal');
+    if (principal && principal.parentNode) {
+      principal.parentNode.insertBefore(container, principal);
+    } else {
+      document.body.insertBefore(container, document.body.firstChild);
+    }
+  }
+
+  // Select de ordenação
+  let select = document.getElementById('seletor');
+  if (!select) {
+    select = document.createElement('select');
+    select.id = 'selectOrdenacao';
+    container.appendChild(select);
+  }
+
+  // Botão de alternar direção (apenas como atalho visual)
+  let btnDirecao = document.getElementById('btnAlternarDirecao');
+  if (!btnDirecao) {
+    atalho = document.getElementById("atalho")
+    btnDirecao = document.createElement('button');
+    btnDirecao.id = 'btnAlternarDirecao';
+    btnDirecao.type = 'button';
+    btnDirecao.title = 'Inverter direção';
+    btnDirecao.textContent = '⇅';
+    atalho.appendChild(btnDirecao);
+  }
+
+  // Atualiza select conforme estado atual
+  select.value = `${campoOrdenacao}_${direcaoOrdenacao}`;
+
+  // Eventos
+  select.addEventListener('change', () => {
+    const [campo, dir] = select.value.split('_');
+    campoOrdenacao = campo;
+    direcaoOrdenacao = dir;
+    // sempre reinicia pagina e intervalo ao mudar ordenação
+    paginaAtual = 1;
+    intervaloAtual = 1;
+    // aplica ordenação sobre o conjunto atual (se existir variável global 'livros' filtrada pela busca, use-a)
+    const base = (typeof livros !== 'undefined' && Array.isArray(livros)) ? livros : (json && Array.isArray(json['livros']) ? json['livros'] : []);
+    const ordenados = ordenarLivros(base);
+    // atualiza a referência 'livros' usada para paginação se quisermos manter ordenação persistente
+    if (typeof livros !== 'undefined') livros = ordenados;
+    exibirBooks(ordenados, paginaAtual);
+  });
+
+  btnDirecao.addEventListener('click', () => {
+    direcaoOrdenacao = direcaoOrdenacao === 'asc' ? 'desc' : 'asc';
+    select.value = `${campoOrdenacao}_${direcaoOrdenacao}`;
+    // dispara mesma lógica do change
+    select.dispatchEvent(new Event('change'));
+  });
+}
+
+// Integração: quando a página carrega, garantir controles e ordenar antes de exibir
+const _onloadOrig = window.onload;
+window.onload = () => {
+  // chama qualquer onload anterior (se existir) para preservar comportamento
+  if (typeof _onloadOrig === 'function') _onloadOrig();
+
+  // garante controles e aplica ordenação inicial
+  garantirControlesOrdenacao();
+
+  const base = (json && Array.isArray(json['livros'])) ? json['livros'] : [];
+  // aplica ordenação inicial
+  const ordenados = ordenarLivros(base);
+  // atualiza a variável global usada pela busca/paginação
+  if (typeof livros !== 'undefined') livros = ordenados;
+  exibirBooks(ordenados, paginaAtual);
+};
+
+// Também, quando a busca é feita, reaplica ordenação aos resultados (modifiquei seu listener)
+if (botaoBuscar) {
+  botaoBuscar.removeEventListener('click', () => {}); // limpa listener vazio se existia
+  botaoBuscar.addEventListener('click', () => {
+    const termoBusca = inputBusca.value.toLowerCase();
+    const todos = (json && Array.isArray(json['livros'])) ? json['livros'] : [];
+    livros = todos.filter(book => {
+      const autor = (book.autor || '').toString().toLowerCase();
+      const titulo = (book.titulo || '').toString().toLowerCase();
+      return autor.includes(termoBusca) || titulo.includes(termoBusca);
+    });
+    paginaAtual = 1;
+    intervaloAtual = 1;
+    // aplica ordenação aos resultados da busca
+    const ordenados = ordenarLivros(livros);
+    livros = ordenados;
+    exibirBooks(ordenados, paginaAtual);
+  });
+}
+if (typeof exibirBooks === 'function') {
+  const exibirBooksOriginal = exibirBooks;
+  exibirBooks = function(booksArray, pagina) {
+    const base = Array.isArray(booksArray) ? booksArray : (Array.isArray(livros) ? livros : []);
+    const ordenados = ordenarLivros(base);
+
+    return exibirBooksOriginal.call(this, ordenados, pagina);
+  };
+}

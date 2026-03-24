@@ -109,7 +109,7 @@ var json = {
 "estado" : "perfeito",
 "disponibilidade" : "Sim",
 "capa" : "img2/avent20.webp",
-"sinopse" : "Uma renomada revista e portal brasileiro, focado na popularização da história, trazendo reportagens, curiosidades e análises de eventos reais de forma acessível e envolvente. A cobertura abrange desde a antiguidade até episódios contemporâneos, destacando personalidades, conflitos, arqueologia e curiosidades.""
+"sinopse" : "Uma renomada revista e portal brasileiro, focado na popularização da história, trazendo reportagens, curiosidades e análises de eventos reais de forma acessível e envolvente. A cobertura abrange desde a antiguidade até episódios contemporâneos, destacando personalidades, conflitos, arqueologia e curiosidades."
    },{
 "titulo" : "Aventuras na História Ed°72",
 "autor" : "Editora Abril",
@@ -119,7 +119,7 @@ var json = {
 "estado" : "capa e contracapa solta",
 "disponibilidade" : "Sim",
 "capa" : "img2/avent72.webp",
-"sinopse" : "Uma renomada revista e portal brasileiro, focado na popularização da história, trazendo reportagens, curiosidades e análises de eventos reais de forma acessível e envolvente. A cobertura abrange desde a antiguidade até episódios contemporâneos, destacando personalidades, conflitos, arqueologia e curiosidades.""
+"sinopse" : "Uma renomada revista e portal brasileiro, focado na popularização da história, trazendo reportagens, curiosidades e análises de eventos reais de forma acessível e envolvente. A cobertura abrange desde a antiguidade até episódios contemporâneos, destacando personalidades, conflitos, arqueologia e curiosidades."
    },{
 "titulo" : "Aventuras na História N°136",
 "autor" : "Editora Abril",
@@ -129,7 +129,7 @@ var json = {
 "estado" : "perfeito",
 "disponibilidade" : "Sim",
 "capa" : "img2/avent136.webp",
-"sinopse" : "Uma renomada revista e portal brasileiro, focado na popularização da história, trazendo reportagens, curiosidades e análises de eventos reais de forma acessível e envolvente. A cobertura abrange desde a antiguidade até episódios contemporâneos, destacando personalidades, conflitos, arqueologia e curiosidades.""
+"sinopse" : "Uma renomada revista e portal brasileiro, focado na popularização da história, trazendo reportagens, curiosidades e análises de eventos reais de forma acessível e envolvente. A cobertura abrange desde a antiguidade até episódios contemporâneos, destacando personalidades, conflitos, arqueologia e curiosidades."
    },{
 "titulo" : "Aventuras na História N°175",
 "autor" : "Editora Abril",
@@ -139,7 +139,7 @@ var json = {
 "estado" : "perfeito",
 "disponibilidade" : "Sim",
 "capa" : "img2/avent175.webp",
-"sinopse" : "Uma renomada revista e portal brasileiro, focado na popularização da história, trazendo reportagens, curiosidades e análises de eventos reais de forma acessível e envolvente. A cobertura abrange desde a antiguidade até episódios contemporâneos, destacando personalidades, conflitos, arqueologia e curiosidades.""
+"sinopse" : "Uma renomada revista e portal brasileiro, focado na popularização da história, trazendo reportagens, curiosidades e análises de eventos reais de forma acessível e envolvente. A cobertura abrange desde a antiguidade até episódios contemporâneos, destacando personalidades, conflitos, arqueologia e curiosidades."
    },{
 "titulo" : "Aventuras na História N°179",
 "autor" : "Editora Abril",
@@ -149,7 +149,7 @@ var json = {
 "estado" : "perfeito",
 "disponibilidade" : "Sim",
 "capa" : "img2/avent179.webp",
-"sinopse" : "Uma renomada revista e portal brasileiro, focado na popularização da história, trazendo reportagens, curiosidades e análises de eventos reais de forma acessível e envolvente. A cobertura abrange desde a antiguidade até episódios contemporâneos, destacando personalidades, conflitos, arqueologia e curiosidades.""
+"sinopse" : "Uma renomada revista e portal brasileiro, focado na popularização da história, trazendo reportagens, curiosidades e análises de eventos reais de forma acessível e envolvente. A cobertura abrange desde a antiguidade até episódios contemporâneos, destacando personalidades, conflitos, arqueologia e curiosidades."
    },{
 "titulo" : "Exame Info Dicas Ed°120",
 "autor" : "Editora Abril",

@@ -1,6 +1,66 @@
 var json = {
     livros : [
   {
+"titulo" : "Mantras de Vida",
+"autor" : "João Nunes, Espírito Loester",
+"ano" : 1986,
+"paginas" : 172,
+"idioma" : "pt-br",
+"estado" : "perfeito",
+"disponibilidade" : "Sim",
+"capa" : "img2/mana.webp",
+"sinopse" : "Como todo hábito, a conquista de padrões elevados de comportamento se dará pela concietização e pela repetição. O autor desse livro consegue reunir os dois aspectos num só momento: ele propõe ao leitor estudar , durante um ano, a sua obra, composta de 52 capítulos,demorando- se uma semana em cada capítulo que deve ser lido diariamente"
+   },{
+"titulo" : "Orgulho e Preconceito",
+"autor" : "Jane Austen, João Pedro Roriz",
+"ano" : 2011,
+"paginas" : 151,
+"idioma" : "pt-br",
+"estado" : "perfeito",
+"disponibilidade" : "Sim",
+"capa" : "img2/org-precon.webp",
+"sinopse" : "É um clássico que acompanha Elizabeth Bennet, uma jovem inteligente, na Inglaterra rural do século XIX. A trama aborda o amor improvável entre Elizabeth e o rico Mr. Darcy, que superam o orgulho dele e o preconceito dela para casar por amor, criticando casamentos por conveniência"
+   },{
+"titulo" : "Mais Fatos & Mitos Sobre sua Saúde",
+"autor" : "Dr. Fernando Lucchese",
+"ano" : 2010,
+"paginas" : 135,
+"idioma" : "pt-br",
+"estado" : "perfeito",
+"disponibilidade" : "Sim",
+"capa" : "img2/fatos-mitos.webp",
+"sinopse" : "O livro desvenda de forma acessível cerca de 150 a 170 crenças populares, separando verdades científicas de invencionices. O livro aborda hábitos diários, alimentação e funcionamento do corpo, esclarecendo questões como soluções para soluços, eficácia de tratamentos e mitos sobre alimentos."
+   },{
+"titulo" : "História Universal - Da Babilônia à Pérsia",
+"autor" : "Carl Grimberg",
+"ano" : 1989,
+"paginas" : 80,
+"idioma" : "pt-br",
+"estado" : "perfeito",
+"disponibilidade" : "Sim",
+"capa" : "img2/historia-univer.webp",
+"sinopse" : "Um volume panorâmico que narra a formação, florescimento e apogeu das civilizações no Antigo Oriente Próximo. Com leitura envolvente, o autor destaca a Mesopotâmia, o império persa e suas contribuições cruciais para o desenvolvimento humano, abordando política e cultura. "
+   },{
+"titulo" : "Coleção Leis Especiais para concurso - Vol.29 - Lei Antitruste",
+"autor" : "André Luiz Santa, Thiago Martins",
+"ano" : 2015,
+"paginas" : 190,
+"idioma" : "pt-br",
+"estado" : "Algumas páginas riscadas",
+"disponibilidade" : "Sim",
+"capa" : "img2/leis.webp",
+"sinopse" : "O livro aborda a Lei 12.529/2011, que estrutura o Sistema Brasileiro de Defesa da Concorrência (SBDC) e dispõe sobre a prevenção e repressão às infrações contra a ordem econômica. Geralmente escrito por especialistas da área (o volume de Lei Antitruste desta coleção é assinado por André Luiz Santa Cruz Ramos) Esta obra é indicada para concursos de tribunais, áreas jurídicas e carreiras que exigem conhecimento aprofundado em direito econômico. "
+   },{
+"titulo" : "CLT - Consolidação das Leis do Trabalho e Regime Jurídico dos Servidores públicos civis da União, das autarquias e das funções públicas federais",
+"autor" : "Armando Costa, Irany Ferrari, Maria Vitória",
+"ano" : 1993,
+"paginas" : 234,
+"idioma" : "pt-br",
+"estado" : "Algumas páginas riscadas",
+"disponibilidade" : "Sim",
+"capa" : "img2/clt.webp",
+"sinopse" : "Esta obra aborda os dois principais regimes de trabalho no Brasil: a Consolidação das Leis do Trabalho (CLT), voltada ao setor privado, e o Regime Jurídico Único (Lei 8.112/1990), aplicável aos servidores públicos federais estatutários. "
+   },{
 "titulo" : "Kingmaker - Uma jornada no inverno",
 "autor" : "Toby Clements",
 "ano" : 2015,
@@ -19,7 +79,7 @@ var json = {
 "estado" : "perfeito",
 "disponibilidade" : "Sim",
 "capa" : "img2/apartamento-sorriso.webp",
-"sinopse" : ""
+"sinopse" : "Narra uma aventura infantojuvenil sobre o desaparecimento de quatro irmãos alegres que viviam grudados na televisão. A empregada Juju, em pânico, conta com a ajuda do 'Primo Gordo', um herói comilão e criativo, para investigar o sumiço misterioso no prédio"
    },{
 "titulo" : "Aventuras na História Ed°6",
 "autor" : "Editora Abril",
@@ -29,7 +89,7 @@ var json = {
 "estado" : "perfeito",
 "disponibilidade" : "Sim",
 "capa" : "img2/avent6.webp",
-"sinopse" : ""
+"sinopse" : "Uma renomada revista e portal brasileiro, focado na popularização da história, trazendo reportagens, curiosidades e análises de eventos reais de forma acessível e envolvente. A cobertura abrange desde a antiguidade até episódios contemporâneos, destacando personalidades, conflitos, arqueologia e curiosidades."
    },{
 "titulo" : "Grandes Líderes da História N° 10",
 "autor" : "Editora Arte Antiga",
@@ -49,7 +109,7 @@ var json = {
 "estado" : "perfeito",
 "disponibilidade" : "Sim",
 "capa" : "img2/avent20.webp",
-"sinopse" : ""
+"sinopse" : "Uma renomada revista e portal brasileiro, focado na popularização da história, trazendo reportagens, curiosidades e análises de eventos reais de forma acessível e envolvente. A cobertura abrange desde a antiguidade até episódios contemporâneos, destacando personalidades, conflitos, arqueologia e curiosidades.""
    },{
 "titulo" : "Aventuras na História Ed°72",
 "autor" : "Editora Abril",
@@ -59,7 +119,7 @@ var json = {
 "estado" : "capa e contracapa solta",
 "disponibilidade" : "Sim",
 "capa" : "img2/avent72.webp",
-"sinopse" : ""
+"sinopse" : "Uma renomada revista e portal brasileiro, focado na popularização da história, trazendo reportagens, curiosidades e análises de eventos reais de forma acessível e envolvente. A cobertura abrange desde a antiguidade até episódios contemporâneos, destacando personalidades, conflitos, arqueologia e curiosidades.""
    },{
 "titulo" : "Aventuras na História N°136",
 "autor" : "Editora Abril",
@@ -69,7 +129,7 @@ var json = {
 "estado" : "perfeito",
 "disponibilidade" : "Sim",
 "capa" : "img2/avent136.webp",
-"sinopse" : ""
+"sinopse" : "Uma renomada revista e portal brasileiro, focado na popularização da história, trazendo reportagens, curiosidades e análises de eventos reais de forma acessível e envolvente. A cobertura abrange desde a antiguidade até episódios contemporâneos, destacando personalidades, conflitos, arqueologia e curiosidades.""
    },{
 "titulo" : "Aventuras na História N°175",
 "autor" : "Editora Abril",
@@ -79,7 +139,7 @@ var json = {
 "estado" : "perfeito",
 "disponibilidade" : "Sim",
 "capa" : "img2/avent175.webp",
-"sinopse" : ""
+"sinopse" : "Uma renomada revista e portal brasileiro, focado na popularização da história, trazendo reportagens, curiosidades e análises de eventos reais de forma acessível e envolvente. A cobertura abrange desde a antiguidade até episódios contemporâneos, destacando personalidades, conflitos, arqueologia e curiosidades.""
    },{
 "titulo" : "Aventuras na História N°179",
 "autor" : "Editora Abril",
@@ -89,7 +149,7 @@ var json = {
 "estado" : "perfeito",
 "disponibilidade" : "Sim",
 "capa" : "img2/avent179.webp",
-"sinopse" : ""
+"sinopse" : "Uma renomada revista e portal brasileiro, focado na popularização da história, trazendo reportagens, curiosidades e análises de eventos reais de forma acessível e envolvente. A cobertura abrange desde a antiguidade até episódios contemporâneos, destacando personalidades, conflitos, arqueologia e curiosidades.""
    },{
 "titulo" : "Exame Info Dicas Ed°120",
 "autor" : "Editora Abril",
@@ -318,7 +378,7 @@ var json = {
 "idioma" : "pt-br",
 "estado" : "perfeito",
 "disponibilidade" : "Sim",
-"capa" : "img2/.webp",
+"capa" : "img2/me85.webp",
 "sinopse" : ""
    },{
 "titulo" : "Mundo Estranho Ed°207",
@@ -399,7 +459,7 @@ var json = {
 "estado" : "perfeito",
 "disponibilidade" : "Sim",
 "capa" : "img2/terror-aventura.webp",
-"sinopse" : ""
+"sinopse" : "Narra a dura realidade do tráfico negreiro no Atlântico e a vida de escravizados na Bahia. A obra aborda o trauma da travessia e a resistência cultural, destacando o cotidiano, trabalho e as revoltas na Bahia. O livro é um recurso fundamental para entender o impacto do tráfico negreiro, com foco no contexto histórico baiano e na resistência da população negra"
    },{
 "titulo" : "Um breve guia ilustrado para compreender o islã",
 "autor" : "I. A. Ibrahim",
@@ -1211,15 +1271,25 @@ var json = {
 "capa" : "img2/roteiro-geo.webp",
 "sinopse" : "Embasamento Arqueano-Proterozóico inferior da região Nordeste do Estado da Bahia e mineralizações associadas: roteiros geológicos a distritos mineiros. Salvador: Superintendencia de Geologia e Recursos Minerais"
    },{
-"titulo" : "",
-"autor" : "",
-"ano" : 0,
-"paginas" : 0,
+"titulo" : "Coleção Mitologia - Vol.3 - Lendas",
+"autor" : "Salvador Nogueira",
+"ano" : 2011,
+"paginas" : 127,
 "idioma" : "pt-br",
 "estado" : "perfeito",
 "disponibilidade" : "Sim",
-"capa" : "img2/.webp",
-"sinopse" : ""
+"capa" : "img2/lenda.webp",
+"sinopse" : "Ele aborda narrativas complementares, o universo das tragédias/comédias, além de expandir o panteão abordado nos volumes anteriores, explorando histórias de heróis e criaturas"
+   },{
+"titulo" : "Coleção Mitologia - Vol.1 - Deuses",
+"autor" : "Maurício Horta",
+"ano" : 2011,
+"paginas" : 127,
+"idioma" : "pt-br",
+"estado" : "perfeito",
+"disponibilidade" : "Sim",
+"capa" : "img2/deuses.webp",
+"sinopse" : "Explora a genealogia e as intrigas das divindades gregas, desde os primordiais Gaia e Urano até o reinado de Zeus. A obra detalha a transição do poder dos Titãs para os Olimpianos, com linguagem acessível, abordando a justiça divina, relações de poder e o contexto da religião grega. "
    }
   ]
 };

@@ -140,10 +140,11 @@ function exibirDetalhesbook(book) {
 
   const meuP1 = document.createElement('p');
   meuP1.classList.add('infobook');
-  meuP1.textContent = "Titulo : ";
+  meuP1.textContent = "Titulo : "
   const meuB1 = document.createElement('b');
   meuB1.textContent = book.titulo;
   meuP1.appendChild(meuB1);
+  
 
   const meuP2 = document.createElement('p');
   meuP2.classList.add('infobook');

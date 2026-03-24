@@ -31,8 +31,6 @@ main {
 }
 #campoBusca {
     text-align: center;
-    
-
 }
 #busca {
     height: 20px;
@@ -74,7 +72,7 @@ img {
     display: flex;
     padding: 10px 0;
     align-items: center;
-    margin-left: 14%;
+    margin-left: 8%;
 }
 
 li {
@@ -82,8 +80,7 @@ li {
     padding: 10px;
 }
 .botaoPagina {
-    padding: 5px;
-    
+    padding: 5px; 
 }
 footer {
     background-color: var(--pe);

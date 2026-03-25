@@ -11,6 +11,246 @@ var json = {
 "capa" : "img2/mana.webp",
 "sinopse" : "Como todo hábito, a conquista de padrões elevados de comportamento se dará pela concietização e pela repetição. O autor desse livro consegue reunir os dois aspectos num só momento: ele propõe ao leitor estudar , durante um ano, a sua obra, composta de 52 capítulos,demorando- se uma semana em cada capítulo que deve ser lido diariamente"
    },{
+"titulo" : "Ciência Política",
+"autor" : "Estácio",
+"ano" : 2015,
+"paginas" : 200,
+"idioma" : "pt-br",
+"estado" : "algumas páginas molhadas",
+"disponibilidade" : "Sim",
+"capa" : "img3/1.webp",
+"sinopse" : "Sociedade Política e a Origem do Estado, Principais linhas teóricas sobre a origem do Estado, Os Elementos Essenciais do Estado, Território: a Delimitação Espacial do Poder, Povo : Traços característicos e distintivos, Revolução: História e Conceito, Estado e Governo segundo seus tipos clássicos, Formas de Estado, Formas de Governo, Sistemas de Governo, Regimes de Governo, O Estado constitucional e as Perspectivas do Estado Contemporâneo"
+   },{
+"titulo" : "Teláris - Ciências 8° ano E.F.",
+"autor" : "Fernando Gewandsznajder, Helena Pacca",
+"ano" : 2020,
+"paginas" : 256,
+"idioma" : "pt-br",
+"estado" : "Sem contracapa",
+"disponibilidade" : "Sim",
+"capa" : "img3/2.webp",
+"sinopse" : "Tipos de Reprodução, Reprodução humana e transformações na puberdade, Sexualidade e métodos contraceptivos, Doenças sexualmente transmissíveis, Movimento da Terra e da Lua, O tempo e o clima, Eletricidade, Eletricidade e consumo, Fontes de energia e impactos socioambientais"
+   },{
+"titulo" : "Matemática - Ciência e aplicações - 3° Ano E.M.",
+"autor" : "Gerson Iezzi, Osvaldo Dolce, David Degenszanj, Roberto Perigo, Nilze de Almeida",
+"ano" : 2018,
+"paginas" : 256,
+"idioma" : "pt-br",
+"estado" : "capa rasgadas",
+"disponibilidade" : "Sim",
+"capa" : "img3/3.webp",
+"sinopse" : "O ponto, A reta, A circunferência, As cônicas, Estatística Básica, Matemática Financeira, Números complexos, Polinômios, Equações algébricas"
+   },{
+"titulo" : "Ciências - 7° ano E.F. - Coleção eu gosto mais",
+"autor" : "Antônio Carlos Pezzi",
+"ano" : 2012,
+"paginas" : 208,
+"idioma" : "pt-br",
+"estado" : "perfeito",
+"disponibilidade" : "Sim",
+"capa" : "img3/4.webp",
+"sinopse" : "A origem da vida, A origem das células, Os vírus, Os cinco reinos e os três domínios, Padrões de reprodução, As bactérias, Os protistas, As algas, Os fungos, As esponjas e os cnidários, Os vermes e as doenças, Os anelídeos, Os artrópodes, Os moluscos e os equinodermas, Os ciclostomos, Os peixes, Os anfíbios: tentativa de sair da água, Os répteis: conquistando novo ambiente, As aves: animais de sangue quente, Os mamíferos, A fotossíntese, Os musgos e as samambaias, As plantas com semente, Frutos e sementes"
+   },{
+"titulo" : "Geografia - 7° ano E.F. - Coleção eu gosto mais",
+"autor" : "Amarildo Diniz",
+"ano" : 2012,
+"paginas" : 144,
+"idioma" : "pt-br",
+"estado" : "perfeito",
+"disponibilidade" : "Sim",
+"capa" : "img3/8.webp",
+"sinopse" : "Brasil: Posição geográfica, divisão política e regiões, Brasil: economia e espaço geográfico, A região Sudeste, Região Sul e Centro-Oeste, A região Nordeste, A região Norte, "
+   },{
+"titulo" : "Matemática- 7° ano E.F. - Coleção eu gosto mais",
+"autor" : "Marcos Miami",
+"ano" : 2012,
+"paginas" : 231,
+"idioma" : "pt-br",
+"estado" : "perfeito",
+"disponibilidade" : "Sim",
+"capa" : "img3/9.webp",
+"sinopse" : "Potenciação e Radiciação, Medindo o tempo, Trabalhando com ângulos, Números inteiros, Operações com números inteiros, As figuras geométricas, Os números racionais, Equações, Inequações, Sistema de equações, Proporcionalidade, Porcentagem, Tabelas e gráficos estatísticos, cálculo de áreas"
+   },{
+"titulo" : "Apostila Direito Civil",
+"autor" : "Estácio",
+"ano" : 2015,
+"paginas" : 210,
+"idioma" : "pt-br",
+"estado" : "algumas páginas morfadas e outras páginas coladas",
+"disponibilidade" : "Sim",
+"capa" : "img3/5.webp",
+"sinopse" : "O código civil brasileiro, A pessoa natural, Pessoa e direitos da personalidade, A pessoa jurídica, Os bens, Dos fatos jurídicos, Dos negócios jurídicos, Defeitos nos negócios jurídicos, Invalidade dos negócios jurídicos, Prescrição e decadência, Atos ilícitos e responsabilidade civil"
+   },{
+"titulo" : "Apostila Direito Penal",
+"autor" : "Estácio",
+"ano" : 2015,
+"paginas" : 108,
+"idioma" : "pt-br",
+"estado" : "perfeito",
+"disponibilidade" : "Sim",
+"capa" : "img3/6.webp",
+"sinopse" : "A ciência penal, Teoria da norma jurídico-oenal, validade e eficácia da lei penal no tempo e no espaço, teoria do direito, do fato típico e seus elementos, ilicitude, culpabilidade, teoria do erro, concurso de pessoa"
+   },{
+"titulo" : "Apostila Instrumentação Industrial",
+"autor" : "Gilson Toscano",
+"ano" : 0,
+"paginas" : 60,
+"idioma" : "pt-br",
+"estado" : "perfeito",
+"disponibilidade" : "Sim",
+"capa" : "img3/7.webp",
+"sinopse" : "Introdução à Instrumentação, Simbologia de instrumentação, medição vazio, medição de temperatura, medição de pressão, medição de nível, introdução-controle, malhas de controle, mode de controle, sistema digital de controle distribuido (SDCD /PLC )"
+   },{
+"titulo" : "Rede Integral - 2° ano E.M.- Vol.2",
+"autor" : "Integral",
+"ano" : 0,
+"paginas" : 55,
+"idioma" : "pt-br",
+"estado" : "perfeito",
+"disponibilidade" : "Sim",
+"capa" : "img3/10.webp",
+"sinopse" : "Biologia - Reprodução humana"
+   },{
+"titulo" : "Colégio Integral - Mod.6 - 3° ano E.M.",
+"autor" : "Integral",
+"ano" : 2007,
+"paginas" : 32,
+"idioma" : "pt-br",
+"estado" : "perfeito",
+"disponibilidade" : "Sim",
+"capa" : "img3/11.webp",
+"sinopse" : "Biologia.- Zoologia, Verminoses, Botânica: grupos vegetais e histologia vegetal"
+   },{
+"titulo" : "Central de Vestibular",
+"autor" : "Vinícius, Valdimilson, Bruno Dantralves, Cristiane",
+"ano" : 0,
+"paginas" : 45,
+"idioma" : "pt-br",
+"estado" : "perfeito",
+"disponibilidade" : "Sim",
+"capa" : "img3/12.webp",
+"sinopse" : "Biologia - Citologia I"
+   },{
+"titulo" : "Manual de Estágio supervisionado em serviço social",
+"autor" : "Faculdade Dom Pedro II",
+"ano" : 2012,
+"paginas" : 0,
+"idioma" : "pt-br",
+"estado" : "perfeito",
+"disponibilidade" : "Sim",
+"capa" : "img3/13.webp",
+"sinopse" : "Apresentação, O estágio em serviço social: princípio e diretrizes da facul domingo Pedro II, objetivos do estágio supervisionado, As disciplinas de estágio supervisionado, Base do curso de serviço social, Referências"
+   },{
+"titulo" : "Psicologia aplicada ao Direito",
+"autor" : "Lídia Levy, Lygia Santa Maria, Stella Aranha",
+"ano" : 2014,
+"paginas" : 124,
+"idioma" : "pt-br",
+"estado" : "Algumas páginas coladas e morfadas",
+"disponibilidade" : "Sim",
+"capa" : "img2/14.webp",
+"sinopse" : "Breve história do encontro e três psicologia e direito, noções introdutórias de psicologia, a família, abordagem psicológica da violência"
+   },{
+"titulo" : "Saúde e prevenção nas escolas - Vol.1 - Sexualidade e saúde reprodutiva",
+"autor" : "Ministério da Saúde",
+"ano" : 2011,
+"paginas" : 0,
+"idioma" : "pt-br",
+"estado" : "perfeito",
+"disponibilidade" : "Sim",
+"capa" : "img3/17.webp",
+"sinopse" : ""
+   },{
+"titulo" : "Saúde e prevenção nas escolas - Vol.2 - Adolescências : Juventudes e participação",
+"autor" : "Ministério da Saúde",
+"ano" : 2011,
+"paginas" : 0,
+"idioma" : "pt-br",
+"estado" : "perfeito",
+"disponibilidade" : "Sim",
+"capa" : "img3/18.webp",
+"sinopse" : ""
+   },{
+"titulo" : "Saúde e prevenção nas escolas - Vol.3 - Metodologias",
+"autor" : "Ministério da Saúde",
+"ano" : 2011,
+"paginas" : 0,
+"idioma" : "pt-br",
+"estado" : "perfeito",
+"disponibilidade" : "Sim",
+"capa" : "img3/19.webp",
+"sinopse" : ""
+   },{
+"titulo" : "Saúde e prevenção nas escolas - Vol.5 - Álcool e outras drogas",
+"autor" : "Mistério da Saúde",
+"ano" : 2011,
+"paginas" : 0,
+"idioma" : "pt-br",
+"estado" : "perfeito",
+"disponibilidade" : "Sim",
+"capa" : "img3/15.webp",
+"sinopse" : ""
+   },{
+"titulo" : "Saúde e prevenção nas escolas - Vol.6 - Raças e Etnias",
+"autor" : "Mistério da Saúde",
+"ano" : 2011,
+"paginas" : 0,
+"idioma" : "pt-br",
+"estado" : "perfeito",
+"disponibilidade" : "Sim",
+"capa" : "img3/16.webp",
+"sinopse" : ""
+   },{
+"titulo" : "Saúde e prevenção nas escolas - Vol.7 - Gêneros",
+"autor" : "Ministério da Saúde",
+"ano" : 2011,
+"paginas" : 0,
+"idioma" : "pt-br",
+"estado" : "perfeito",
+"disponibilidade" : "Sim",
+"capa" : "img3/21.webp",
+"sinopse" : ""
+   },{
+"titulo" : "Saúde e prevenção nas escolas - Vol.7 - Prevenção das DST: HIV e Aids",
+"autor" : "Ministério da Saúde",
+"ano" : 2011,
+"paginas" : 0,
+"idioma" : "pt-br",
+"estado" : "perfeito",
+"disponibilidade" : "Sim",
+"capa" : "img3/21.webp",
+"sinopse" : ""
+   },{
+"titulo" : "Saúde e prevenção nas escolas - Vol.8 - Diversidades sexuais",
+"autor" : "",
+"ano" : 2011,
+"paginas" : 0,
+"idioma" : "pt-br",
+"estado" : "perfeito",
+"disponibilidade" : "Sim",
+"capa" : "img3/20.webp",
+"sinopse" : ""
+   },{
+"titulo" : "Transferência de pessoas condenadas",
+"autor" : "Ministério da Justiça",
+"ano" : 2010,
+"paginas" : 0,
+"idioma" : "pt-br",
+"estado" : "perfeito",
+"disponibilidade" : "Sim",
+"capa" : "img3/23.webp",
+"sinopse" : ""
+   },{
+"titulo" : "Programas : criança e adolescente proteção social",
+"autor" : "TCE",
+"ano" : 0,
+"paginas" : 0,
+"idioma" : "pt-br",
+"estado" : "perfeito",
+"disponibilidade" : "Sim",
+"capa" : "img3/24.webp",
+"sinopse" : ""
+   },{
 "titulo" : "Orgulho e Preconceito",
 "autor" : "Jane Austen, João Pedro Roriz",
 "ano" : 2011,

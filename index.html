@@ -18,21 +18,22 @@
       <h2 id="tituloPagina">Biblioteca Rokusan</h2>
       <div id="campoBusca">
           <h3>Pesquise</h3>
-          <input id="busca" type="text" placeholder="Busque por Autor | Titulo ">
-          
+          <div id="campo1">
+            <input id="busca" type="text" placeholder="Busque por Autor | Titulo ">
+            <button id="botaoBusca"><img src="icons/lupa.png" id="lupa" alt=""></button>
+          </div>
           <h3>Ordenação</h3>
+          <div id="campo2"> 
           <select id="seletor">
 <option value="titulo_asc">Título (A → Z)</option>
 <option value="titulo_desc">Título (Z → A)</option>
-<option value="ano_desc">Ano (mais novo → mais antigo)</option>
-<option value="ano_asc">Ano (mais antigo → mais novo)</option>
+<option value="ano_desc">Ano (Novo → Antigo)</option>
+<option value="ano_asc">Ano (Antigo → Novo)</option>
 <option value="paginas_desc">Páginas (maior → menor)</option>
 <option value="paginas_asc">Páginas (menor → maior)</option>
           </select>
-          <div id="atalho"></div>
-          <br>
-          
-          <button id="botaoBusca">Buscar</button>
+          <div id="atalho"></div> 
+          </div>   
       </div>
   </header>
   <main>
@@ -47,16 +48,25 @@
           <span>
               <a href="#">edzzon2@gmail.com</a></span>
           <br>
+          <span class="cat"><b>Endereço : </b></span>
+          <span><a href="#">Rua Duque de Caxias | Bairro da Paz</a></span>
+          <br>
           <span class="cat"><b>CEP : </b></span>
           <span><a href="#">41515-140</a></span>
           <br>
       </div>
-      <div id="icons">
-          
+      <div id="redes">
+          <p>Me acompanhe nas redes sociais</p>
+      <a href="https://github.com/CLedsonB">
+          <br>
+         <img class="icons" src="icons/github.svg" alt="ícone github">
+     </a>
+      <a href=""></a>    
+          <img class="icons" src="icons/youtube.png" alt="">
       </div>
       <div id="copy">
-          <h6>Copyright © - Biblioteca Rokusan
-          <br>CLedsonB 2026</h6>
+          <h6>Biblioteca Rokusan | Todos os direitos reservados 
+          <br>© 2026 <b>Biblioteca Rokusan</b></h6>
       </div>
   </footer>
 </body>

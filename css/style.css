@@ -115,7 +115,9 @@ footer {
     margin: 20px;
 }
 .icons {
-    width: 40px;
+    width: 60px;
+    padding-right: 10px;
+    border-right: 1px solid black;
 }
 
 /* ------------- */

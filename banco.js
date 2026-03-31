@@ -11,6 +11,186 @@ var json = {
 "capa" : "img2/mana.webp",
 "sinopse" : "Como todo hábito, a conquista de padrões elevados de comportamento se dará pela concietização e pela repetição. O autor desse livro consegue reunir os dois aspectos num só momento: ele propõe ao leitor estudar , durante um ano, a sua obra, composta de 52 capítulos,demorando- se uma semana em cada capítulo que deve ser lido diariamente"
    },{
+"titulo" : "Grandes enigmas da humanidade - Vol.1",
+"autor" : "Janine Faure, Luiz A., Marly Peres",
+"ano" : 2009,
+"paginas" : 120,
+"idioma" : "pt-br",
+"estado" : "perfeito",
+"disponibilidade" : "Sim",
+"capa" : "img3/34.webp",
+"sinopse" : "A vida seria de origem extraterrestre? Quem escreveu a Biblia? O sonho do Dr. Frankenstein vai se realizar? A guerra de Troia aconteceu? Napoleão foi envenenado com arsenico? Todas essas perguntas, e muitas outras 150 ao todo, são discutidas nesta obra, que oferece ao mesmo tempo conhecimento atualizado e o prazer de uma exposição ágil e viva. Ricamente ilustrado, Grandes enigmas da humanidade convida você para um mergulho nas profundezas dos temores e das esperanças dos homens. Tesouros escondidos, monstros das profundezas e dos picos, aparições e fenômenos até hoje inexplicados povoam este livro, para grande prazer do leitor."
+   },{
+"titulo" : "Ciências - 8° ano",
+"autor" : "Ana Maria Pereira, Margarida Santana, Mônica Waldhelm",
+"ano" : 2011,
+"paginas" : 256,
+"idioma" : "pt-br",
+"estado" : "perfeito",
+"disponibilidade" : "páginas morfadas",
+"capa" : "img3/35.webp",
+"sinopse" : "Nós, os seres humanos, Como é formado o nosso corpo - células e tecidos, sexualidade e vida, digestão, respiração, circulação e excreção, órgãos dos sentidos, sistemas nervosos e endócrino, locomoção - ossos e músculos"
+   },{
+"titulo" : "Conceitos de Biologia - Vol.1 ",
+"autor" : "Amabis e Martho",
+"ano" : 2001,
+"paginas" : 222,
+"idioma" : "pt-br",
+"estado" : "perfeito",
+"disponibilidade" : "Sim",
+"capa" : "img3/36.webp",
+"sinopse" : "a Biologia como ciência, a origem da vida, a base molecular da vida, a descoberta da célula, fronteiras da célula, o citoplasma, Como as células obtêm energia, o núcleo celular, divisão celular: mitose e meiose, reprodução e desenvolvimento dos animais"
+   },{
+"titulo" : "História - sociedade e cidadania - Vol.3",
+"autor" : "Alfredo Boulos Junior",
+"ano" : 2018,
+"paginas" : 288,
+"idioma" : "pt-br",
+"estado" : "páginas morfadas",
+"disponibilidade" : "Sim",
+"capa" : "img3/37.webp",
+"sinopse" : "industrialização e imperialismo, a primeira guerra Mundial e a revolução russa, primeira república: dominação e resistência, a grande depressão e os fascismos, a segunda guerra Mundial, a era Vargas, a guerra fria, independências África e Ásia, o socialismo real, de Dutra a Django: uma experiência democrática, o regime militar, o fim do bloco soviético e a nova ordem mundial, o Brasil e a nova ordem mundial"
+   },{
+"titulo" : "Geografia em rede",
+"autor" : "Edilson Adão, Laércio Furquim",
+"ano" : 2018,
+"paginas" : 288,
+"idioma" : "pt-br",
+"estado" : "capa e contracapa solta",
+"disponibilidade" : "Sim",
+"capa" : "img3/38.webp",
+"sinopse" : "geografia das relações internacionais, geografia do poder Mundial, Estados Unidos A hiper potência, a globalização, globalização e regionalização os blocos econômicos, China: a nova potência, Rússia Japão e Índia potências distintas, o espectro geopolítico do oriente médio, mundo árabe ao caso e Ásia central, África O legado colonial, a nova face da África crescimento urbano e econômico, geopolítica da América Latina geopolítica do Brasil"
+   },{
+"titulo" : "física geral e experimental 3",
+"autor" : "universidade federal da Bahia, instituto de física",
+"ano" : 0,
+"paginas" : 87,
+"idioma" : "pt-br",
+"estado" : "capa e contracapa rasgadas",
+"disponibilidade" : "Sim",
+"capa" : "img3/39.webp",
+"sinopse" : "medida de corrente e diferença de potencial, medidas de resistência, ponte de Wheastone, resistência não lineares por efeito da temperatura, medidas da componente horizontal da indução magnética terrestre, linhas equipotenciais, resoluções da cgpm, constantes físicas, relações matemáticas, método dos mínimos quadrados, código de resistores"
+   },{
+"titulo" : "Química - Vol.3",
+"autor" : "Martha Reis",
+"ano" : 2018,
+"paginas" : 288,
+"idioma" : "pt-br",
+"estado" : "perfeito",
+"disponibilidade" : "Sim",
+"capa" : "img3/40.webp",
+"sinopse" : "conceitos básicos e nomenclatura, hidrocarbonetos e haletos orgânicos, petróleo hulha e madeira, funções oxigenadas e nitrogenadas, isomeria constitucional e estereoisomeria, reações de substituição, reações de adição e reações orgânicas, polímero sintéticos, introdução bioquímica, carboidratos e proteínas, leis da radioatividade e energia nuclear"
+   },{
+"titulo" : "Treinamento e capacitação para as boas práticas a sistemas de ar condicionado do tipo janela e mini split",
+"autor" : "Ministério do meio ambiente",
+"ano" : 2017,
+"paginas" : 152,
+"idioma" : "pt-br",
+"estado" : "perfeito",
+"disponibilidade" : "Sim",
+"capa" : "img3/41.webp",
+"sinopse" : "o protocolo de Montreal e a destruição da camada de ozônio, importância de recolher reciclar e regenerar fluidos frigoríficos e reduzir vazamento, segurança na refrigeração, fluidos frigoríficos, equipamentos e ferramentas, operação com tubulações, ar condicionado, cálculo de carga térmica simplificada para ambientes com ar condicionado, instalação de aparelhos de ar condicionado do tipo janela e mini split, vazamentos descobrir e evitar, recolhimento reciclagem regeneração, operações no sistema de refrigeração, manutenção preventiva planejada, fim da vida útil"
+   },{
+"titulo" : "Desenho geométrico para o segundo grau",
+"autor" : "Bongiovanni, Elder, Luciano",
+"ano" : 1994,
+"paginas" : 239,
+"idioma" : "pt-br",
+"estado" : "perfeito",
+"disponibilidade" : "Sim",
+"capa" : "img3/42.webp",
+"sinopse" : "construções básicas com régua e compasso, como copiar uma figura, lugares geométricos planos, aplicando os lugares geométricos nos triângulos e quadriláteros, aplicando os lugares geométrico em problemas de tangência e concordância, 9s lugares geométricos: elipse parábola e pérola, noções de equivalência, noções de homotetia, recordando conceitos básicos de geometria plana"
+   },{
+"titulo" : "desenhos geométrico - Fundamental I",
+"autor" : "Giovani, Tereza, Elenice",
+"ano" : 2002,
+"paginas" : 62,
+"idioma" : "pt-br",
+"estado" : "perfeito",
+"disponibilidade" : "Sim",
+"capa" : "img3/43.webp",
+"sinopse" : "a reta e suas partes, ângulos, triângulo, quadrilátero, circunferência"
+   },{
+"titulo" : "ética e cidadania",
+"autor" : "Júlio César Gomes",
+"ano" : 2016,
+"paginas" : 100,
+"idioma" : "pt-br",
+"estado" : "perfeito",
+"disponibilidade" : "Sim",
+"capa" : "img3/44.webp",
+"sinopse" : "grandes concorrências da filosofia e da ética, ética e moral, temáticas recorrentes da filosofia ocidental ética e cidadania temáticas brasileiras"
+   },{
+"titulo" : "Costa do descobrimento",
+"autor" : "Ana Cristina, Charlotte Lima, Cristiane Conceição vila Elisângela Vieira, Verena Patrícia Garcia",
+"ano" : 0,
+"paginas" : 38,
+"idioma" : "pt-br",
+"estado" : "perfeito",
+"disponibilidade" : "Sim",
+"capa" : "img3/45.webp",
+"sinopse" : "uma pesquisa feita sobre a costa do descobrimento abordando informações do solo, turismo localização geográfica e cultura"
+   },{
+"titulo" : "livro didático de introdução ao estudo do direito",
+"autor" : "Edna Raquel, Paulo Roberto, Fernanda Rivabem",
+"ano" : 2014,
+"paginas" : 188,
+"idioma" : "pt-br",
+"estado" : "perfeito",
+"disponibilidade" : "Sim",
+"capa" : "img3/46.webp",
+"sinopse" : "conceituação básica, A História do pensamento jurídico, o direito como ciência e sua metodologia, teoria da Norma jurídica, teoria no ordenamento jurídico, sujeitos na relação jurídica, direito subjetivo objetiva, conceito de pontos do direito, hermenêutica jurídica O poder judiciário brasileiro e sua estrutura"
+   },{
+"titulo" : "livro didático de fundamentos da Ciências sociais",
+"autor" : "Edir figueiredo, Antônio Henrique vila Antônio Cláudio, Renata Salomone",
+"ano" : 2014,
+"paginas" : 164,
+"idioma" : "pt-br",
+"estado" : "perfeito",
+"disponibilidade" : "Sim",
+"capa" : "img3/47.webp",
+"sinopse" : "a sociedade como objeto de estudo, os usos e abusos da cultura, passeando pela história, sociologia a Francesa, a sociologia alemã, temas contemporâneas da sociologia"
+   },{
+"titulo" : "Aprova Brasil matemática - 8° ano",
+"autor" : "Editora moderna",
+"ano" : 2014,
+"paginas" : 155,
+"idioma" : "pt-br",
+"estado" : "perfeito",
+"disponibilidade" : "Sim",
+"capa" : "img3/48.webp",
+"sinopse" : "reta numérica, números racionais e suas diferentes representações, frações e números decimais, expressões numéricas, problemas com números naturais e números inteiros, problemas com números racionais, unidades de medida, porcentagem, mapas e figuras geométricas, triângulos equiláteros, ângulos e polígonos, a ampliação e redução de figuras, perímetro e área, expressões algébricas, problemas envolvendo tabelas e gráficos construção de tabelas e gráficos"
+   },{
+"titulo" : "A escrita da História - vol. 2",
+"autor" : "Flávio de campos, Regina Claro",
+"ano" : 2012,
+"paginas" : 288,
+"idioma" : "pt-br",
+"estado" : "perfeito",
+"disponibilidade" : "Sim",
+"capa" : "img3/49.webp",
+"sinopse" : "as fronteiras novas da idade média, Inglaterra e Portugal: destinos cruzadas, as revoluções inglesas, Portugal e Brasil no século 16, A idade do ouro no Brasil, o iluminismo, o nascimento dos Estados unidos, a revolução Francesa, a revolução industrial, conspiração e revoltas na América portuguesa, as independência na América espanhola, a independência do Brasil, a nação como novidade, construção dos Estados Unidos no século 19, a forja da identidade: quem é brasileiro, imperialismo, o império do café, a construção da ordem republicana no Brasil biglar República da espada, a institucionalização do regime, as armas da fé, a indústria do café, a classe operária vai ao paraíso"
+   },{
+"titulo" : "A escrita da História - Vol. 1",
+"autor" : "Flávio de Campos, Regina Claro",
+"ano" : 2012,
+"paginas" : 335,
+"idioma" : "pt-br",
+"estado" : "algumas páginas coladas e manchadas",
+"disponibilidade" : "Sim",
+"capa" : "img3/50.webp",
+"sinopse" : "o feudalismo, visões do paraíso, entre o mundo medieval e o início da idade moderna, a reconquista e expansão marítima, os negros da terra, a reforma protestante, visões dos conquistadores, a sociedade do antigo regime, administração colonial portuguesa, administração colonial espanhola, o império colonial português, a economia colonial, inferno dos negros purgatório dos brancos e paraíso dos mulatos, monarquias absolutistas o Estado absolutista, o absolutismo da Inglaterra"
+   },{
+"titulo" : "Way to English - 8° Ano",
+"autor" : "Cláudio Franco",
+"ano" : 2018,
+"paginas" : 208,
+"idioma" : "en-us",
+"estado" : "capa rasgada",
+"disponibilidade" : "Sim",
+"capa" : "img3/51.webp",
+"sinopse" : "information overlord, fashion: in or out, the future of English, dancing to sucess, The world of Box, what a wonderful world, eat a rainbow, friends forever"
+   },{
 "titulo" : "Ciência Política",
 "autor" : "Estácio",
 "ano" : 2015,
@@ -218,7 +398,7 @@ var json = {
 "idioma" : "pt-br",
 "estado" : "perfeito",
 "disponibilidade" : "Sim",
-"capa" : "img3/21.webp",
+"capa" : "img3/22.webp",
 "sinopse" : ""
    },{
 "titulo" : "Saúde e prevenção nas escolas - Vol.8 - Diversidades sexuais",
@@ -234,22 +414,112 @@ var json = {
 "titulo" : "Transferência de pessoas condenadas",
 "autor" : "Ministério da Justiça",
 "ano" : 2010,
-"paginas" : 0,
+"paginas" : 116,
 "idioma" : "pt-br",
 "estado" : "perfeito",
 "disponibilidade" : "Sim",
 "capa" : "img3/23.webp",
-"sinopse" : ""
+"sinopse" : "O livro apresenta tratados entre Brasil e países sobre transferência de presos entre países como Argentina, Bolívia, Canadá, Chile, Espanha, Paraguai, Peru, Portugal, Reino Unido."
    },{
 "titulo" : "Programas : criança e adolescente proteção social",
 "autor" : "TCE",
-"ano" : 0,
-"paginas" : 0,
+"ano" : 2017,
+"paginas" : 49,
 "idioma" : "pt-br",
 "estado" : "perfeito",
 "disponibilidade" : "Sim",
 "capa" : "img3/24.webp",
-"sinopse" : ""
+"sinopse" : "Apresenta o programa, a avaliação do TCE sobre ele, o desenvolvimento do programa e possíveis aprimoramentos"
+   },{
+"titulo" : "Regime Próprio de previdência social do Estado da Bahia",
+"autor" : "TCE",
+"ano" : 2017,
+"paginas" : 35,
+"idioma" : "pt-br",
+"estado" : "páginas morfadas",
+"disponibilidade" : "Sim",
+"capa" : "img3/25.webp",
+"sinopse" : "Apresenta o programa, a avaliação do TCE sobre ele, o desenvolvimento do programa e possíveis aprimoramentos"
+   },{
+"titulo" : "Metodologia do ensino de Educação Física",
+"autor" : "Carmem Lúcia, Celi Nelza, Elizabeth Varjal, Lino Filho, Micheli Ortega, Valter Bracht",
+"ano" : 2012,
+"paginas" : 200,
+"idioma" : "pt-br",
+"estado" : "perfeito",
+"disponibilidade" : "Sim",
+"capa" : "img3/26.webp",
+"sinopse" : "Neste livro a Educação Física Escolar configura-se pela apreensão das distintas manifestações da Cultura Corporal tais como o Jogo, a Dança, a Ginástica, o Esporte, entre outros. Apresenta os fundamentos que buscam identificar a Educação Física na Escola, visando construir parâmetros necessários a uma nova síntese. A metodologia, que é enunciada neste livro, é entendida como uma das formas de apropriação do conhecimento específico da Educação Física onde sempre está presente o singular de cada tema da Cultura Corporal, como também o geral, que é a expressão corporal como linguagem social e historicamente construída. Assim, são contempladas abordagens metodológicas abrangendo programas específicos para cada um dos graus de ensino, bem como formas de selecionar e sistematizar o conhecimento e organizar o trabalho escolar, sem descuidar das práticas avaliativas, que ganham instigantes contornos."
+   },{
+"titulo" : "O livro da literatura",
+"autor" : "James Canton",
+"ano" : 2016,
+"paginas" : 352,
+"idioma" : "pt-br",
+"estado" : "perfeito",
+"disponibilidade" : "Sim",
+"capa" : "img3/27.webp",
+"sinopse" : "Um guia enciclopédico visual que mapeia a história literária mundial, desde epopeias antigas até obras contemporâneas. Utilizando linguagem simples, infográficos e ilustrações, a obra analisa grandes autores e movimentos, sendo ideal para consulta e introdução ao tema, com foco no contexto histórico e na evolução da escrita."
+   },{
+"titulo" : "Enciclopédia de Pesquisas Escolares",
+"autor" :"Magda Frediani, Maria Filomena",
+"ano" : 0,
+"paginas" : 71,
+"idioma" : "pt-br",
+"estado" : "perfeito",
+"disponibilidade" : "Sim",
+"capa" : "img3/28.webp",
+"sinopse" : "Vida econômica brasileira, Principais produtos da terra: extraídos e cultivados. Do campo a cidade, a procurar de quê?. Ecologia e comunicação, Pesquisando a comunicação humana."
+   },{
+"titulo" : "Guiness O livro dos Recordes 1994",
+"autor" : "Guiness Publishing",
+"ano" : 1994,
+"paginas" : 312,
+"idioma" : "pt-br",
+"estado" : "perfeito",
+"disponibilidade" : "Sim",
+"capa" : "img3/29.webp",
+"sinopse" : "Em 1955 foi lançada na Grã-Bretanha a primeira edição do The Guinness Book of Records, por Norris McWhirter e seu irmão gêmeo Ross. A edição de 1994 contém mais de cinco vezes a quantidade de informações da primeira. Publicado em cerca de 43 idiomas, é o maior best-seller do mundo, com 75 milhões de exemplares vendidos até hoje. Esta edição, totalmente renovada, traz fotos e ilustrações inéditas, bem como milhares de novos recordes. Lançado no Brasil em 1992, Guinness, o Livro dos Recordes 1994 apresenta, além dos recordes internacionais, novos recordes nacionais e grandes possibilidades para alguns se tornarem recordistas mundiais. Durante o ano inteiro contamos com a participação de todo o Brasil no sentido de informar ou estabelecer novos recor-des. O desafio continua para o próximo ano!"
+   },{
+"titulo" : "Sierra Madre - As regiões selvagens do mundo",
+"autor" : "Donald Dale, Peter Wood",
+"ano" : 1984,
+"paginas" : 184,
+"idioma" : "pt-br",
+"estado" : "perfeito",
+"disponibilidade" : "Sim",
+"capa" : "img3/30.webp",
+"sinopse" : "Através do Rio Grande, O Negro coração da Cordilheira, O Paraíso dos Ornitólogos, Um Oceano de Montanhas, A Terra das Barracas."
+   },{
+"titulo" : "ProEASE - programa de educação ambiental do sistema educacional da Bahia",
+"autor" : "Secretaria de Educação",
+"ano" : 2015,
+"paginas" : 131,
+"idioma" : "pt-br",
+"estado" : "perfeito",
+"disponibilidade" : "Sim",
+"capa" : "img3/31.webp",
+"sinopse" : "Situando o programa de educação ambiental do sistema educacional. Contexto normativo de educação e da educação ambiental. Panorama da educação ambiental no sistema educacional. Educação ambiental na Secretaria da educação: contextos e propostas do órgão central. Educação ambiental e saúde ambiental: Estabelecendo relações. Objetivo geral do ProEASE. Diretrizes gerais para todos os níveis e modalidades de ensino e aprendizagem"
+   },{
+"titulo" : "Módulo pré-universidade - Livro 4",
+"autor" : "Módulo",
+"ano" : 0,
+"paginas" : 581,
+"idioma" : "pt-br",
+"estado" : "perfeito",
+"disponibilidade" : "Sim",
+"capa" : "img3/32.webp",
+"sinopse" : "Conteúdos de Filosofia (Ética e moral, ética e sociedade), Espanhol (Possesivos, numerales denostrativos), Inglês (The Degrees of comparison, The main adjectives and thier respective opposites, relative pronouns ), Matemática (Trigonometria, Estatística), Português (Gramática, Morfologia, Literatura, Redação),Geografia (População, Migrações, Agropecuária), História (História Geral e História do Brasil), Biologia (Genética, Fisiologia, Reprodução), Química (Estequiometria da reações, introdução à química orgânica, hidrocarbonetos, funções oxigenadas, funções nitrogenadas, propriedades dos compostos orgânicos, isomeria), Física (Impulso e quantidade de movimento, Gravitação universal, Hidrostática, Magnetismo e eletromagnetismo, Indução eletromagnética)"
+   },{
+"titulo" : "A volta ao mundo em 80 dias",
+"autor" : "Júlio Verne",
+"ano" : 2005,
+"paginas" : 103,
+"idioma" : "pt-br",
+"estado" : "perfeito",
+"disponibilidade" : "Sim",
+"capa" : "img3/33.webp",
+"sinopse" : "Uma aposta entre elegantes cavalheiros da Ingla terra do século XIX tira Phileas Fogg da tranqüilidade do cotidiano londrino. Fogg aceita o desafio de percor-rer o mundo em apenas oitenta dias e ganhar vinte mil libras. A volta ao mundo em oitenta dias, clássico de Júlio Verne, recontado por Fernando Nuno, ganha nova versão, com ilustrações de Rogério Borges, que simulam efeitos de gravura em metal - técnica utilizada naquela época, mesclados com arte digital."
    },{
 "titulo" : "Orgulho e Preconceito",
 "autor" : "Jane Austen, João Pedro Roriz",

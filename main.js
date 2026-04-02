@@ -1,4 +1,4 @@
-const livrosPorPagina = 10;
+const livrosPorPagina = 15;
 let paginaAtual = 1;
 let intervaloAtual = 1;
 const botoesPorIntervalo = 5;
@@ -293,11 +293,15 @@ function garantirControlesOrdenacao() {
   if (!btnDirecao) {
     atalho = document.getElementById("atalho")
     btnDirecao = document.createElement('button');
+    imgDirecao = document.createElement('img');
+    imgDirecao.id = 'setaoposta';
+    imgDirecao.src = 'icons/setas-opostas.png'
     btnDirecao.id = 'btnAlternarDirecao';
     btnDirecao.type = 'button';
     btnDirecao.title = 'Inverter direção';
-    btnDirecao.textContent = '⇅';
+    
     atalho.appendChild(btnDirecao);
+    btnDirecao.appendChild(imgDirecao);
   }
 
   // Atualiza select conforme estado atual

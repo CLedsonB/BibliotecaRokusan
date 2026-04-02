@@ -189,7 +189,7 @@ var json = {
 "estado" : "capa rasgada",
 "disponibilidade" : "Sim",
 "capa" : "img3/51.webp",
-"sinopse" : "information overlord, fashion: in or out, the future of English, dancing to sucess, The world of Box, what a wonderful world, eat a rainbow, friends forever"
+"sinopse" : "1 - Word groups, Word formation: prefixes.  review: present simple, present continuous. 2 - Word formation: suffixes. Review: past simple, past continuous. 3 - Synonyms, Future with Will. 4 - Word formation: suffixes. Future with be going to. 5 - Book Genres. Making comparisons (comparative adjectives) 6 - Adjectives. Making comparisons (superlative adjectives) 7 - Food. Countable and Uncountable Nouns. Expressions of Quantity. 8 - Word formation: Suffixes. Noun Phrases. Relative pronouns: Who, Whose, That, Which."
    },{
 "titulo" : "Ciência Política",
 "autor" : "Estácio",
@@ -517,7 +517,7 @@ var json = {
 "paginas" : 103,
 "idioma" : "pt-br",
 "estado" : "perfeito",
-"disponibilidade" : "Sim",
+"disponibilidade" : "Não",
 "capa" : "img3/33.webp",
 "sinopse" : "Uma aposta entre elegantes cavalheiros da Ingla terra do século XIX tira Phileas Fogg da tranqüilidade do cotidiano londrino. Fogg aceita o desafio de percor-rer o mundo em apenas oitenta dias e ganhar vinte mil libras. A volta ao mundo em oitenta dias, clássico de Júlio Verne, recontado por Fernando Nuno, ganha nova versão, com ilustrações de Rogério Borges, que simulam efeitos de gravura em metal - técnica utilizada naquela época, mesclados com arte digital."
    },{
